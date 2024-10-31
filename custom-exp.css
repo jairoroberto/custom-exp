@@ -51,7 +51,7 @@ body .cHeaderLine.slds-grid {
 
 body .comm-navigation.forceCommunityGlobalNavigation {
     /* background: #cc0000; */
-    background: rgba(128,128,128,.75);
+    /* background: rgba(128,128,128,.75); */
 }
 
 body .comm-navigation.forceCommunityGlobalNavigation a {
@@ -67,7 +67,7 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
 }
 
 body .comm-navigation.forceCommunityGlobalNavigation a:hover {
-    background: #860404 !important;
+    /* background: #860404 !important; */
 }
 
 @media only screen and (min-width: 48em){
