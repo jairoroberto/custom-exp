@@ -50,7 +50,8 @@ body .cHeaderLine.slds-grid {
 }
 
 body .comm-navigation.forceCommunityGlobalNavigation {
-    background: #cc0000;
+    /* background: #cc0000; */
+    background: rgba(128,128,128,.75);
 }
 
 body .comm-navigation.forceCommunityGlobalNavigation a {
