@@ -30,3 +30,11 @@ Claro! Aqui está a lista de comandos do Git com o padrão de escrita usando cra
 - `git tag [nome]`: Marca um ponto específico na história do repositório como uma versão.
 - `git blame [arquivo]`: Mostra quem fez cada alteração em um arquivo.
 - `git show [commit]`: Exibe informações sobre um commit específico.
+
+
+------
+
+[ ] Botão Filtros Avançado
+[ ] Botão Modal "Continuar"
+[ ] Padding-bottom Step1 Form
+[ ] Definição de Campanhas - Revisar todos o forms.
