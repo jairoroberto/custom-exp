@@ -4,7 +4,7 @@
 
 # Comandos Básicos do Git
 
-- **``git init``**: Inicializa um novo repositório Git.
+- ``git init``:  Inicializa um novo repositório Git.
 - **git clone [url]**: Clona um repositório existente a partir de uma URL.
 - **git status**: Mostra o estado atual do repositório, incluindo arquivos modificados e não rastreados.
 - **git add [arquivo]**: Adiciona um arquivo específico à área de stage.
