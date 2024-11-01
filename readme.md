@@ -8,7 +8,7 @@
 - **git clone [url]**: Clona um repositório existente a partir de uma URL.
 - **git status**: Mostra o estado atual do repositório, incluindo arquivos modificados e não rastreados.
 - **git add [arquivo]**: Adiciona um arquivo específico à área de stage.
-- **git add .**: Adiciona todos os arquivos modificados à área de stage.
+- **git add .** : Adiciona todos os arquivos modificados à área de stage.
 - **git commit -m "[mensagem]"**: Comita as mudanças na área de stage com uma mensagem descritiva.
 - **git push**: Envia os commits locais para o repositório remoto.
 - **git pull**: Atualiza o repositório local com as mudanças do repositório remoto.
