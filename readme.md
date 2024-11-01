@@ -34,7 +34,7 @@ Claro! Aqui está a lista de comandos do Git com o padrão de escrita usando cra
 
 ------
 
-[ ] Botão Filtros Avançado
-[ ] Botão Modal "Continuar"
-[ ] Padding-bottom Step1 Form
-[ ] Definição de Campanhas - Revisar todos o forms.
+- [ ] Botão Filtros Avançado
+- [ ] Botão Modal "Continuar"
+- [ ] Padding-bottom Step1 Form
+- [ ] Definição de Campanhas - Revisar todos o forms.
