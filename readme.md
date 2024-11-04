@@ -1,4 +1,13 @@
-Claro! Aqui está a lista de comandos do Git com o padrão de escrita usando crases em todas as linhas:
+# TASKS 
+
+- [ ] Botão Filtros Avançado
+- [ ] Botão Modal "Continuar"
+- [ ] Padding-bottom Step1 Form
+- [ ] Definição de Campanhas - Revisar todos o forms. (Leads e Clientes - Step 1)
+- Paths: force-app/main/default/aura/CreateCampaignAccount/CreateCampaignAccount.cmp + force-app/main/default/aura/CreateCampaignLead/CreateCampaignLead.cmp
+
+
+Lista de comandos do Git com o padrão de escrita usando crases em todas as linhas:
 
 # Comandos Básicos do Git
 
@@ -32,10 +41,4 @@ Claro! Aqui está a lista de comandos do Git com o padrão de escrita usando cra
 - `git show [commit]`: Exibe informações sobre um commit específico.
 
 
-------
 
-- [ ] Botão Filtros Avançado
-- [ ] Botão Modal "Continuar"
-- [ ] Padding-bottom Step1 Form
-- [ ] Definição de Campanhas - Revisar todos o forms. (Leads e Clientes - Step 1)
-- Paths: force-app/main/default/aura/CreateCampaignAccount/CreateCampaignAccount.cmp + force-app/main/default/aura/CreateCampaignLead/CreateCampaignLead.cmp
