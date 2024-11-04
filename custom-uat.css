@@ -118,6 +118,10 @@ body.comm-page-custom-campaigns .cNewExpressCampaign button {
     font-size: 0.9rem;
 }
 
+section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.slds-button_destructive){
+     background: #f2f2f2;
+}
+
 
 body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
     background: #cc0100;
