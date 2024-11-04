@@ -120,6 +120,7 @@ body.comm-page-custom-campaigns .cNewExpressCampaign button {
 
 section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.slds-button_destructive){
      background: #f2f2f2;
+     color:#333333;
 }
 
 
