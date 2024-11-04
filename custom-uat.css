@@ -123,10 +123,10 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
 }
 
 
-body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
+/* body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
     background: #cc0100;
     color: #fff;
-}
+} */
 
 
 .cCreateCampaignRecordType .cDynamicModal #header {
