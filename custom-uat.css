@@ -113,7 +113,7 @@ body.comm-page-custom-campaigns .forceListViewManagerHeader {
 body.comm-page-custom-campaigns .cNewExpressCampaign button {
     width: 170px;
     height: 40px;
-    background: #f2f2f2;
+    /* background: #f2f2f2; */
     margin-left: 1rem;
     font-size: 0.9rem;
 }
