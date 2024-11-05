@@ -2,7 +2,7 @@
 
 - [x] Botão Filtros Avançado
 - [x] Botão Modal "Continuar"
-- [ ] Padding-bottom Step1 Form
+- [x] Padding-bottom Step1 Form
 - [ ] Definição de Campanhas - Revisar todos o forms. (Leads e Clientes - Step 1)
 - Paths: force-app/main/default/aura/CreateCampaignAccount/CreateCampaignAccount.cmp + force-app/main/default/aura/CreateCampaignLead/CreateCampaignLead.cmp
 
