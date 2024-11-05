@@ -113,13 +113,13 @@ body.comm-page-custom-campaigns .forceListViewManagerHeader {
     border-radius: 5px;
 }
 
-body.comm-page-custom-campaigns .cNewExpressCampaign button {
+/* body.comm-page-custom-campaigns .cNewExpressCampaign button {
     width: 170px;
     height: 40px;
     background: #f2f2f2;
     margin-left: 1rem;
     font-size: 0.9rem;
-}
+} */
 
 
 body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
