@@ -96,7 +96,7 @@ body.comm-page-custom-campaigns .listViewContent table tr:nth-child(odd) {
     background: #f7f7f7;
 }
 
-body.comm-page-custom-campaigns .cNewExpressCampaign {
+body.comm-page-custom-campaigns .box-actions-campaign.cNewExpressCampaign {
     width: 100%;
     padding-top: 0.7rem;
     display: flex;
