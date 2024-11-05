@@ -140,6 +140,8 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
 
 }
 
-/* teste */
-/* Jairo
-Raphael */
+.cCreateCampaign .body{
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
