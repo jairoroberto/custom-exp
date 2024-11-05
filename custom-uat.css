@@ -124,6 +124,12 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
 }
 
 
+.box-actions-campaign {
+    background: #f2f2f2;
+    padding: 0.75rem;
+    border-radius: 4px;
+}
+
 /* body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
     background: #cc0100;
     color: #fff;
