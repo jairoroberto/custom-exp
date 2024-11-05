@@ -102,25 +102,18 @@ body.comm-page-custom-campaigns .forceListViewManagerHeader {
     border-radius: 5px;
 }
 
-body.comm-page-custom-campaigns .cNewExpressCampaign button {
+/* body.comm-page-custom-campaigns .cNewExpressCampaign button {
     width: 170px;
     height: 40px;
-    /* background: #f2f2f2; */
+    background: #f2f2f2;
     margin-left: 1rem;
     font-size: 0.9rem;
-}
+} */
 
 section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.slds-button_destructive){
      background: #f2f2f2;
      color:#333333;
 }
-
-
-
-/* body.comm-page-custom-campaigns .cNewExpressCampaign button:nth-child(2) {
-    background: #cc0100;
-    color: #fff;
-} */
 
 
 .cCreateCampaign .body{
