@@ -121,3 +121,18 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
     padding-top: 1rem;
 }
 
+
+.steps-base-component{
+    --slds-g-color-neutral-base-100: #cc0000 !important;
+    --lwc-progressColorBackground: #cc0000 !important;
+}
+/* 
+.THIS .steps-base-component .slds-progress__item.slds-is-active .slds-progress__marker {
+    --slds-g-color-neutral-base-100: #cc0000 !important;
+    --lwc-progressColorBackground: #cc0000 !important;
+}
+
+.THIS .steps-base-component .slds-progress__item.slds-is-active .slds-progress__marker  {
+    box-shadow: var(--slds-g-color-neutral-base-100, var(--lwc-progressColorBackground,rgba(186, 5, 23))) 0 0 0 4px !important;
+} */
+
