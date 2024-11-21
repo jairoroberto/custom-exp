@@ -123,9 +123,9 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
 
 
 .steps-base-component{
-    --slds-g-color-neutral-base-100: #cc0000 !important;
+    /* --slds-g-color-neutral-base-100: #cc0000 !important;
     --lwc-progressColorBackground: #cc0000 !important;
-    --slds-g-color-brand-base-50: #fff;
+    --slds-g-color-brand-base-50: #fff; */
 }
 /* 
 .THIS .steps-base-component .slds-progress__item.slds-is-active .slds-progress__marker {
