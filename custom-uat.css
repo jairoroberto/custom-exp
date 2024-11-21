@@ -115,11 +115,11 @@ section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.
      color:#333333;
 }
 
-
+/* 
 .cCreateCampaign .body{
     padding-bottom: 1rem;
     padding-top: 1rem;
-}
+} */
 
 
 .steps-base-component{
