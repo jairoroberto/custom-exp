@@ -1,0 +1,103 @@
+/* Header navigation Padrao */
+body .cHeaderCommunity {
+    height: 52px;
+    font: bold 1em arial;
+    margin: 0;
+    background-color: #fff !important;
+    width: 100%;
+    padding: 0.5rem;
+}
+
+
+body .cHeaderCommunity .slds-form-element {
+    display: flex;
+    align-items: center;
+    min-width: 420px;
+}
+body .cHeaderCommunity .slds-form-element__label {
+    display: inline-block;
+    color: #999;
+    font-size: 0.7rem;
+    line-height: 1.375;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+body .cHeaderCommunity select {
+    border: 1px solid #ddd;
+}
+
+body .siteforceServiceBody .cHeaderOverlay {
+    height: inherit;
+    background: #f2f2f2;
+    border-top: 1px dashed #ddd;
+}
+
+body .forceCommunitySearchBox .search-button {
+    width: 128px;
+    height: 100%;
+    border-radius: 0 6px 6px 0;
+    overflow: hidden;
+}
+
+body .forceCommunitySearchBox .search-field{
+    border-radius: 4px;
+}
+
+body .cHeaderLine.slds-grid {
+    padding: 1rem;
+    min-height: 120px;
+}
+
+
+body .comm-navigation.forceCommunityGlobalNavigation a {
+    font-size: 0.8rem;
+    padding: 0.3rem 1rem;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+
+
+@media only screen and (min-width: 48em){
+
+    .forceCommunitySearchBox .search-field {
+        font-size: var(--lwc-fcFontSizeMedium,0.8125rem);
+        border: 1px solid #ddd !important;
+        border-radius: 6px 0px 0px 6px;
+        height: 50px;
+    }
+
+}
+
+
+/* Experience Honda Lighting CSS List View Buttons Quick Actions */
+body.comm-page-custom-campaigns .forceListViewManagerHeader {
+    background: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+body.comm-page-custom-campaigns .listViewContent table {
+    border-top: 2px solid #ddd;
+}
+
+body.comm-page-custom-campaigns .listViewContent table tr:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+body.comm-page-custom-campaigns .forceListViewManagerHeader {
+    background: #f2f2f2;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.slds-button_destructive){
+     background: #f2f2f2;
+     color:#333333;
+}
+
+
