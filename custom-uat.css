@@ -78,6 +78,28 @@ body .primaryFieldRow .branding-actions li{
     border:1px solid #cc0000;
 }
 
+.container-campaignlist .slds-radio input[type=radio] {
+    border-color: #666666;
+    background: #fff !important;
+    appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #cc0000;
+    border-radius: 100%;
+    position: relative;
+}
+
+.container-campaignlist .slds-radio input[type=radio] {
+    content: '';
+    background: #fff;
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+}
+
 .container-campaignlist .slds-radio input[type=radio]:checked {
     border-color: #e81818;
     background: #fff !important;
