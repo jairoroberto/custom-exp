@@ -64,7 +64,7 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
 
 
 
-body div:has(.message) .primaryFieldRow{
+body div:has(.cMyHonda_CampaignMessages) + .primaryFieldRow{
     background: #f2f2f2;
     padding: 1rem;
     border-radius: 6px;
