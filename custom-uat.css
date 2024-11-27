@@ -78,6 +78,11 @@ body .primaryFieldRow .branding-actions li{
     border:1px solid #cc0000;
 }
 
+.cExpressCampaignSelectionItem .slds-radio input[type=radio]:checked {
+    border-color: #e81818 !important;
+    background-color: #e81818 !important;
+}
+
 @media only screen and (min-width: 48em){
 
     .forceCommunitySearchBox .search-field {
