@@ -89,7 +89,7 @@ body .primaryFieldRow .branding-actions li{
     position: relative;
 }
 
-.container-campaignlist .slds-radio input[type=radio] {
+.container-campaignlist .slds-radio input[type=radio]:after {
     content: '';
     background: #fff;
     position: absolute;
@@ -99,6 +99,8 @@ body .primaryFieldRow .branding-actions li{
     height: 6px;
     border-radius: 10px;
 }
+
+
 
 .container-campaignlist .slds-radio input[type=radio]:checked {
     border-color: #e81818;
