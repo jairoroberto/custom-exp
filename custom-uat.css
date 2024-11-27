@@ -80,6 +80,7 @@ body .primaryFieldRow .branding-actions li{
 
 
 
+
 .container-campaignlist .slds-radio input[type=radio] {
     border-color: #828282;
     background: #fff !important;
@@ -131,6 +132,11 @@ body .primaryFieldRow .branding-actions li{
         border: 1px solid #ddd !important;
         border-radius: 6px 0px 0px 6px;
         height: 50px;
+    }
+
+    /* Isso tem a ver com os Forms / Labels Criacao MKT */
+    .slds-form-element_horizontal .slds-form-element__control{
+        padding-left: 0;
     }
 
 }
