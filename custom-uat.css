@@ -62,10 +62,8 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
     -moz-font-feature-settings: "liga" on;
 }
 
-
-
-body div:has(.cMyHonda_CampaignMessages) + .primaryFieldRow{
-    background: #f2f2f2;
+body div div:has(.boxYallow) ~ .primaryFieldRow{
+    background: #ffcc20;
     padding: 1rem;
     border-radius: 6px;
 } 
@@ -79,8 +77,6 @@ body div:has(.cMyHonda_CampaignMessages) + .primaryFieldRow{
 body .primaryFieldRow .branding-actions li{
     border:1px solid #cc0000;
 }
-
-
 
 @media only screen and (min-width: 48em){
 
