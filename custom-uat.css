@@ -80,7 +80,7 @@ body .primaryFieldRow .branding-actions li{
 
 .container-campaignlist .slds-radio input[type=radio]:checked {
     border-color: #e81818;
-    background-color: #fff;
+    background: #fff !important;
     appearance: none;
     width: 16px;
     height: 16px;
