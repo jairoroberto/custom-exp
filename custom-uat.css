@@ -67,9 +67,17 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
 body:has(.message) .primaryFieldRow{
     background: #f2f2f2;
 } */
-body .primaryFieldRow{
+
+body .primaryFieldRow {
     background: #f2f2f2;
+    padding: 1rem;
+    border-radius: 6px;
 }
+body .primaryFieldRow .branding-action li{
+    border:1px solid #cc0000;
+}
+
+
 
 @media only screen and (min-width: 48em){
 
