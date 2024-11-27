@@ -62,17 +62,17 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
     -moz-font-feature-settings: "liga" on;
 }
 
-body div div:has(.boxYallow) ~ .primaryFieldRow{
+/* body div div:has(.boxYallow) ~ .primaryFieldRow{
     background: #ffcc20;
     padding: 1rem;
     border-radius: 6px;
-} 
+}  */
 
-/* body .primaryFieldRow {
+body .primaryFieldRow {
     background: #f2f2f2;
     padding: 1rem;
     border-radius: 6px;
-} */
+}
 
 body .primaryFieldRow .branding-actions li{
     border:1px solid #cc0000;
