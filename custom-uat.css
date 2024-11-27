@@ -135,8 +135,8 @@ body .primaryFieldRow .branding-actions li{
     }
 
     /* Isso tem a ver com os Forms / Labels Criacao MKT */
-    .slds-form-element_horizontal .slds-form-element__control{
-        padding-left: 0;
+    .c-form-mkt .slds-form-element_horizontal .slds-form-element__control{
+        padding-left: 0 !important;
     }
 
 }
