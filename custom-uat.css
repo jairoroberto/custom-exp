@@ -68,17 +68,24 @@ body .comm-navigation.forceCommunityGlobalNavigation a {
     border-radius: 6px;
 }  */
 
+/* Header com Quick Actions */
 body .primaryFieldRow {
     background: #f2f2f2;
     padding: 1rem;
     border-bottom:1px dashed #dddddd;
-    border-radius: 6px 6px 0 0;
+    border-radius: 4px 4px 0 0;
 }
 
 body .slds-page-header.slds-page-header_record-home.forceHighlightsStencilDesktop.forceRecordLayout {
     padding: 0 !important;
     border: 1px solid #ddd;
     overflow: hidden;
+    height: auto !important;
+}
+
+body dl.slds-form.slds-form_stacked.slds-grid.slds-page-header__detail-row {
+    padding: 1rem;
+    margin: 0;
 }
 
 body .primaryFieldRow .branding-actions li{
