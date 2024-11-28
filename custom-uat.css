@@ -96,6 +96,10 @@ body .primaryFieldRow .branding-actions li:hover{
     border:1px solid #cc0000;
 }
 
+body .slds-media__figure.slds-icon.forceEntityIcon {
+    background: #cc0000 !important;
+}
+
 
 .container-campaignlist .slds-radio input[type=radio] {
     border-color: #828282;
