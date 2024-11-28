@@ -93,7 +93,7 @@ body .primaryFieldRow .branding-actions li{
 }
 
 body .primaryFieldRow .branding-actions li:hover{
-    border:1px solid #cc0000;
+    border:1px solid #cc0000 !important;
 }
 
 body .slds-media__figure.slds-icon.forceEntityIcon {
