@@ -125,6 +125,12 @@ body .primaryFieldRow .branding-actions li{
     border-radius: 10px;
 }
 
+.slds-page-header.slds-page-header_record-home.forceHighlightsStencilDesktop.forceRecordLayout {
+    padding: 0 !important;
+    border: 1px solid #ddd;
+    overflow: hidden;
+}
+
 @media only screen and (min-width: 48em){
 
     .forceCommunitySearchBox .search-field {
