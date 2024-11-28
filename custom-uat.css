@@ -92,6 +92,10 @@ body .primaryFieldRow .branding-actions li{
     border:1px solid #cc0000;
 }
 
+body .primaryFieldRow .branding-actions li:hover{
+    border:1px solid #cc0000;
+}
+
 
 .container-campaignlist .slds-radio input[type=radio] {
     border-color: #828282;
