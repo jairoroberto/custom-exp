@@ -199,6 +199,10 @@ body.comm-page-custom-campaigns .forceListViewManagerHeader {
     border-radius: 5px;
 }
 
+/ * modal Criação Campaign */
+.cDynamicModal .button-group>* {
+    margin-left: 0em;
+}
 
 
 
