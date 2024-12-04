@@ -199,9 +199,6 @@ body.comm-page-custom-campaigns .forceListViewManagerHeader {
     border-radius: 5px;
 }
 
-section.show.cDynamicModal.cCreateCampaignRecordType #modal .footer button:not(.slds-button_destructive){
-     background: #f2f2f2;
-     color:#333333;
-}
+
 
 
