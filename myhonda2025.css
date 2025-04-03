@@ -34,7 +34,7 @@ div[data-region-name='header'] {
 }
 
 nav.slds-has-flexi-truncate ul {
-    max-width: 1232px;
+    max-width: calc(1232px - 2.25rem);
     margin: auto;
 }
 
