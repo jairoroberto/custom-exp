@@ -1,0 +1,48 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de ambiente
+.env
+.venv/
+node_modules/
+vendor/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+
+# Compilados
+*.class
+*.o
+*.so
+*.dll
+*.exe
+
+# Arquivos de IDEs
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Arquivos de build
+dist/
+build/
+out/
+
+# Arquivos de pacotes
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+
+# Arquivos de banco de dados
+*.sqlite
+*.db
+
+# Arquivos de configuração local
+*.local
