@@ -14,12 +14,12 @@ html.slds-no-wcag body{
 }
 
 .card-cta-calendar{
-    max-width: 1232px;
+    max-width: calc(1232px - 2.25rem);
     margin: 0 auto;
 }
 
 .subheader-actions-list-view{
-    max-width: 1232px;
+    max-width: calc(1232px - 2.25rem);
     margin: 0 auto;
 }
 
