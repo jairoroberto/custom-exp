@@ -13,14 +13,22 @@ html.slds-no-wcag body{
     padding:1rem;
 }
 
-.card-cta-calendar{
+
+
+.card-cta-calendar {
     max-width: calc(1232px - 2.25rem);
-    margin: 0 auto;
+    margin: 1rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 .subheader-actions-list-view{
     max-width: calc(1232px - 2.25rem);
-    margin: 0 auto;
+    margin: 1rem auto 0rem auto;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
 }
 
 
