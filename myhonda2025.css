@@ -54,6 +54,12 @@ div[data-region-name='header'] {
     border-radius: 4px;
 }
 
+.forceCommunitySearchBox .search-button {
+    width: 128px;
+    height: 100%;
+    border-radius: 0 4px 4px 0;
+}
+
 nav.slds-has-flexi-truncate ul {
     max-width: calc(1232px - 2.25rem);
     margin: auto;
