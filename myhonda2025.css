@@ -48,6 +48,12 @@ div[data-region-name='header'] {
     margin: 1rem 0;
 }
 
+.search-container .search-field-wrapper {
+    border: 1px solid #ddd;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
 nav.slds-has-flexi-truncate ul {
     max-width: calc(1232px - 2.25rem);
     margin: auto;
@@ -61,3 +67,4 @@ nav.slds-has-flexi-truncate ul li > a{
 nav.slds-has-flexi-truncate ul li > a:hover{
     background:#000 !important;
 }
+
