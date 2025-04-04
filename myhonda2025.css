@@ -13,9 +13,16 @@ html.slds-no-wcag body{
     padding:1rem;
 }
 
-.card-opp-new{
-    
+.card-cta-calendar{
+    max-width: 1232px;
+    margin: 0 auto;
 }
+
+.subheader-actions-list-view{
+    max-width: 1232px;
+    margin: 0 auto;
+}
+
 
 /* force - changing standard structure SF Exper. Cloud */
 body .siteforceServiceBody .cHeaderOverlay{
