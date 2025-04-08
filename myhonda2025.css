@@ -83,6 +83,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     color: #fff !important;
 }
 
+nav.slds-has-flexi-truncate ul li > ul li a{
+    font-size: 0.6rem !important;
+}
+
 /* Components LWC Card List View Home */
 .lead-name .custom-button-name > .slds-button,
 .leads-header .slds-button{
