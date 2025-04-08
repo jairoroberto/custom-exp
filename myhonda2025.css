@@ -7,7 +7,7 @@ body .forceCommunitySearchBox .search-button {
     border-radius: 0 4px 4px 0px;
 }
 
-body .unsNotificationsCounter .slds-button_icon{
+body .cNotifications .unsNotificationsCounter .slds-button_icon{
     color: #cc0000;
 }
 
@@ -78,9 +78,15 @@ nav.slds-has-flexi-truncate ul li > a{
     text-transform: uppercase;
 }
 
-nav.slds-has-flexi-truncate ul li > a:hover{
+/* nav.slds-has-flexi-truncate ul li > a:hover{
     background:#000 !important;
+} */
+
+nav.slds-has-flexi-truncate ul li:has(button){
+    background:#ccc000;
 }
+
+
 
 
 /* Components LWC Card List View Home */
