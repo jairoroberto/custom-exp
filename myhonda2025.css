@@ -21,8 +21,6 @@ body .cNotifications .unsNotificationsCounter .slds-button_icon{
     padding:1rem;
 }
 
-
-
 .card-cta-calendar {
     max-width: calc(1232px - 2.25rem);
     margin: 1rem auto;
@@ -76,6 +74,7 @@ nav.slds-has-flexi-truncate ul {
 nav.slds-has-flexi-truncate ul li button, 
 nav.slds-has-flexi-truncate ul li > a{
     text-transform: uppercase;
+    font-size:0.8rem;
 }
 
 nav.slds-has-flexi-truncate ul li > a:hover, 
@@ -83,10 +82,6 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     background:#000 !important;
     color: #fff !important;
 }
-
-
-
-
 
 
 /* Components LWC Card List View Home */
