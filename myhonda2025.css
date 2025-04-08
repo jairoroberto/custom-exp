@@ -78,13 +78,15 @@ nav.slds-has-flexi-truncate ul li > a{
     text-transform: uppercase;
 }
 
-/* nav.slds-has-flexi-truncate ul li > a:hover{
+nav.slds-has-flexi-truncate ul li > a:hover, 
+nav.slds-has-flexi-truncate ul li > button:hover {
     background:#000 !important;
+}
+
+/* nav.slds-has-flexi-truncate ul li:has(button){
+    background:#ccc000;
 } */
 
-nav.slds-has-flexi-truncate ul li:has(button){
-    background:#ccc000;
-}
 
 
 
