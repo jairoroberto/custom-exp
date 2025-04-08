@@ -81,4 +81,9 @@ nav.slds-has-flexi-truncate ul li > a:hover{
 }
 .lead-name .custom-button-name > .slds-button:hover{
     color: #8d0000;
+}
 
+/*[kx-scope=button][kx-type=underline]:after, */
+.lead-name .custom-button-name > .slds-button:after{
+    background: #8d0000;
+}
