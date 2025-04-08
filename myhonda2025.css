@@ -3,6 +3,14 @@ html.slds-no-wcag body{
     /* font-size: 1rem; */
 }
 
+body .forceCommunitySearchBox .search-button {
+    border-radius: 0 4px 4px 0px;
+}
+
+body .unsNotificationsCounter .slds-button_icon{
+    color: #cc0000;
+}
+
 /* Structure */
 .card-opp{
     width: 100%;
