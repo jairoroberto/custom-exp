@@ -81,11 +81,9 @@ nav.slds-has-flexi-truncate ul li > a{
 nav.slds-has-flexi-truncate ul li > a:hover, 
 nav.slds-has-flexi-truncate ul li > button:hover {
     background:#000 !important;
+    color: #fff !important;
 }
 
-nav.slds-has-flexi-truncate ul li:has(button) > ul li a:hover {
-    background:#ccc000;
-}
 
 
 
