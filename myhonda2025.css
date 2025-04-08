@@ -76,14 +76,17 @@ nav.slds-has-flexi-truncate ul li > a:hover{
 
 
 /* Components LWC Card List View Home */
-.lead-name .custom-button-name > .slds-button{
+.lead-name .custom-button-name > .slds-button,
+.leads-header .slds-button{
     color: #cc0000;
 }
-.lead-name .custom-button-name > .slds-button:hover{
+.lead-name .custom-button-name > .slds-button:hover,
+.leads-header .slds-button:hover{
     color: #8d0000;
 }
 
 /*[kx-scope=button][kx-type=underline]:after, */
-.lead-name .custom-button-name > .slds-button:after{
+.lead-name .custom-button-name > .slds-button:after,
+.leads-header .slds-button:after{
     background: #8d0000;
 }
