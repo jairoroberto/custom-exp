@@ -74,3 +74,9 @@ nav.slds-has-flexi-truncate ul li > a:hover{
     background:#000 !important;
 }
 
+
+/* Components LWC Card List View Home */
+.lead-name .custom-button-name > .slds-button{
+    color: #cc0000 !important;
+}
+
