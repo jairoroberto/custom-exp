@@ -15,6 +15,7 @@ vendor/
 *.tmp
 *.temp
 *.swp
+*.allai
 
 # Compilados
 *.class
