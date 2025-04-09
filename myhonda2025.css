@@ -114,3 +114,8 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 .leads-header .slds-button:after{
     background: #8d0000;
 }
+
+/* LWC Subheader Actions Home - Force CSS */
+.c-action-subheader button{
+    text-transform: uppercase;
+}
