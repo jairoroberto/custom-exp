@@ -118,4 +118,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 /* LWC Subheader Actions Home - Force CSS */
 .c-action-subheader button{
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.c-action-subheader button .slds-button__icon{
+    position:relative;
+    top:-1px;
 }
