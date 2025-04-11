@@ -129,3 +129,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     position:relative;
     top:-1px;
 }
+
+@media (max-width: 768px) {
+    /* force width 100% buttons actions subheader*/
+    .sub-header-container .buttons-container lightning-button.c-action-subheader {
+        width: 100%;
+    }
+}
