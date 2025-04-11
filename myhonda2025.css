@@ -97,7 +97,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 /* Components LWC Card List View Home */
 .lead-name .custom-button-name > .slds-button,
 .leads-header .slds-button, 
-.leads-footer .slds-button{
+.leads-footer button.slds-button{
     color: #cc0000;
 }
 
