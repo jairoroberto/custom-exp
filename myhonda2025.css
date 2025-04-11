@@ -113,7 +113,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 /*[kx-scope=button][kx-type=underline]:after, */
 .lead-name .custom-button-name > .slds-button:after,
 .leads-header .slds-button:after{
-    background: #8d0000;
+    background: #8d0000 !important;
 }
 
 /* LWC Subheader Actions Home - Force CSS */
