@@ -130,6 +130,13 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     top:-1px;
 }
 
+/* ícone cad opp */
+.c-criar-opp .slds-modal__container .slds-icon-utility-info .slds-icon_large {
+    background: #ffc200;
+    width: 20px;
+    height: 20px;
+}
+
 @media (max-width: 768px) {
     /* force width 100% buttons actions subheader*/
     lightning-button.c-action-subheader {
