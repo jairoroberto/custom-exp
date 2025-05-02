@@ -137,11 +137,11 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     fill: #0B5CAB;
 }
 
-.c-criar-opp .slds-modal__footer .slds-button_neutral{
+/* .c-criar-opp .slds-modal__footer .slds-button_neutral{
     background-color: #35363B;
     border-color: #35363B;
     color: #fff;
-}
+} */
 
 
 @media (max-width: 768px) {
