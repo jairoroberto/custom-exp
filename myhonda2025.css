@@ -132,9 +132,9 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 
 /* ícone cad opp */
 .c-criar-opp .slds-modal__container .slds-icon-utility-info .slds-icon_large {
-    background: #ffc200;
     width: 20px;
     height: 20px;
+    fill: #0B5CAB;
 }
 
 @media (max-width: 768px) {
