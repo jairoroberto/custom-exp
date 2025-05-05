@@ -119,6 +119,20 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     background: #8d0000 !important;
 }
 
+
+.lead-actions .disabled{
+  --slds-c-button-brand-color-background: #dddddd;
+  --lwc-colorTextBrandPrimary: #BBB4B4
+  --slds-c-button-color-border: #dddddd;
+}
+
+.lead-actions .disabled button.slds-button_brand{
+  background-color: #dddddd;
+  color: #BBB4B4;
+}
+
+
+
 /* LWC Subheader Actions Home - Force CSS */
 .c-action-subheader button{
     text-transform: uppercase;
