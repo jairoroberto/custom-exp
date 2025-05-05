@@ -129,7 +129,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 .lead-actions .disabled button.slds-button_brand{
   background-color: #dddddd;
   color: #BBB4B4;
-  border-color: var(--slds-c-button-color-border);
+  border-color: #ddd;
 }
 
 
