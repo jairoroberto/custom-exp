@@ -16,6 +16,7 @@ vendor/
 *.temp
 *.swp
 *.allai
+.allai/workspace.db
 
 # Compilados
 *.class
