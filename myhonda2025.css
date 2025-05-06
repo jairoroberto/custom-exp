@@ -187,8 +187,8 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .header-container img {
-    width: 12px;
-    margin-right:4px;
+    width: 30px;
+    margin-right: 12px;
 }
 
 .date-section {
@@ -225,8 +225,9 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .appointments-text {
-    font-size: 16px;
+    font-size: 18px;
     color: #333;
+    font-weight: bold;
 }
 
 .button-section {
