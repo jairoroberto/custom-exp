@@ -120,16 +120,16 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 
-.lead-actions .disabled{
+/* .lead-actions .disabled{
   --slds-c-button-brand-color-background: #dddddd;
   --lwc-colorTextBrandPrimary: #BBB4B4;
   --slds-c-button-color-border: #dddddd;
-}
+} */
 
 .lead-actions .disabled button.slds-button_brand{
   background-color: #dddddd;
   color: #BBB4B4;
-  border-color: #ddd;
+  border: none;
 }
 
 
