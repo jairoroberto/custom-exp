@@ -173,3 +173,95 @@ button.slds-button.slds-button_brand:hover {
         width: 100%;
     }
 }
+
+
+/* Temporary CSS for Agendamentos / Compromissos Home */
+.header-container {
+    max-width: 1232px;
+    margin: 0 auto;
+    border-bottom: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    background-color: white;
+}
+
+.date-section {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    border-right: 1px solid #e0e0e0;
+}
+
+.calendar-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.date {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.date span {
+    font-weight: normal;
+    color: #666;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.appointments-info {
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    flex-grow: 1;
+}
+
+.appointments-text {
+    font-size: 16px;
+    color: #333;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.btn-open {
+    background-color: #333;
+    color: white;
+}
+
+.btn-new {
+    background-color: white;
+    color: #333;
+    border: 1px solid #e0e0e0;
+}
+
+.btn-new::after {
+    content: "›";
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.btn-open::after {
+    content: "›";
+    margin-left: 8px;
+    font-size: 18px;
+}
+</style>
