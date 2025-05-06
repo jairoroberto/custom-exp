@@ -132,6 +132,11 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   border: none;
 }
 
+button.slds-button.slds-button_brand:hover {
+    background: #35363b;
+    transition: all 0.2s ease;
+}
+
 
 
 /* LWC Subheader Actions Home - Force CSS */
