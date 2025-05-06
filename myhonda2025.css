@@ -186,6 +186,11 @@ button.slds-button.slds-button_brand:hover {
     justify-content: space-between;
 }
 
+.header-container img {
+    width: 12px;
+    margin-right:4px;
+}
+
 .date-section {
     display: flex;
     align-items: center;
