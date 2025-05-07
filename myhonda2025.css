@@ -253,7 +253,7 @@ button.slds-button.slds-button_brand:hover {
     display: flex;
     align-items: center;
     display: flex;
-    gap:6px;
+    gap:10px;
     justify-content: center;
     align-items: center;
     -webkit-font-smoothing: antialiased;
