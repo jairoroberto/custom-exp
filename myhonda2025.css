@@ -254,9 +254,6 @@ button.slds-button.slds-button_brand:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-
-
-
 .btn .icon-arrow{
     max-width:7px;
 }
@@ -265,5 +262,10 @@ button.slds-button.slds-button_brand:hover {
     background-color: #35363b;
     color: white;
 }
+
+.btn-new{
+    background: #ffffff;
+}
+
 
 </style>
