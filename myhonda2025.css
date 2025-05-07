@@ -254,7 +254,7 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .btn .icon-arrow{
-    max-width:12px;
+    max-width:7px;
 }
 
 .btn-open {
@@ -262,21 +262,4 @@ button.slds-button.slds-button_brand:hover {
     color: white;
 }
 
-.btn-new {
-    background-color: white;
-    color: #333;
-    border: 1px solid #e0e0e0;
-}
-
-.btn-new::after {
-    content: "›";
-    margin-left: 8px;
-    font-size: 18px;
-}
-
-.btn-open::after {
-    content: "›";
-    margin-left: 8px;
-    font-size: 18px;
-}
 </style>
