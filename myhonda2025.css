@@ -251,6 +251,8 @@ button.slds-button.slds-button_brand:hover {
     gap:6px;
     justify-content: center;
     align-items: center;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 
