@@ -186,16 +186,18 @@ button.slds-button.slds-button_brand:hover {
     justify-content: space-between;
 }
 
-.header-container img {
-    width: 30px;
-    margin-left: 10px;
-}
+
 
 .date-section {
     display: flex;
     align-items: center;
     padding: 12px 20px 12px 0px;
     border-right: 1px dashed #e0e0e0;
+}
+
+.date-section img{
+    width: 30px;
+    margin-right: 10px;
 }
 
 .calendar-icon {
