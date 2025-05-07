@@ -247,6 +247,10 @@ button.slds-button.slds-button_brand:hover {
     border: none;
     display: flex;
     align-items: center;
+    display: flex;
+    gap:6px;
+    justify-content: center;
+    align-items: center;
 }
 
 .btn-open {
