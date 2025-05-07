@@ -240,7 +240,7 @@ button.slds-button.slds-button_brand:hover {
 .btn {
     padding: 8px 16px;
     border-radius: 4px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     cursor: pointer;
     text-transform: uppercase;
@@ -253,12 +253,14 @@ button.slds-button.slds-button_brand:hover {
     align-items: center;
 }
 
+
+
 .btn .icon-arrow{
     max-width:7px;
 }
 
 .btn-open {
-    background-color: #333;
+    background-color: #35363b;
     color: white;
 }
 
