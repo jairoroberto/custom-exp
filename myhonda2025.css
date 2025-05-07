@@ -253,6 +253,10 @@ button.slds-button.slds-button_brand:hover {
     align-items: center;
 }
 
+.btn .icon-arrow{
+    max-width:12px;
+}
+
 .btn-open {
     background-color: #333;
     color: white;
