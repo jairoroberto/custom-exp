@@ -157,6 +157,13 @@ button.slds-button.slds-button_brand:hover {
     fill: #0B5CAB;
 }
 
+
+/* mudança da posição do icon date picker */
+
+.campo-date .slds-input-has-icon .slds-input__icon .slds-button_icon{
+    margin-top: -6px;
+}
+
 /* .c-criar-opp .slds-modal__footer .slds-button_neutral{
     background-color: #35363B;
     border-color: #35363B;
