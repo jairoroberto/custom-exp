@@ -1,3 +1,4 @@
+
 html.slds-no-wcag body{
     font-family: Helvetica, "Helvetica Neue",Arial,sans-serif;
     /* font-size: 1rem; */
@@ -167,6 +168,12 @@ button.slds-button.slds-button_brand:hover {
     border-color: #35363B;
     color: #fff;
 } */
+
+
+/*  Change Color Icon Event Page */
+.slds-icon-standard-event{
+    fill: #555555;
+}
 
 
 @media (max-width: 768px) {
