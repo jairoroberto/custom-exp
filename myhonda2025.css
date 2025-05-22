@@ -172,8 +172,11 @@ button.slds-button.slds-button_brand:hover {
 
 /*  Change Color Icon Event Page */
 .slds-icon-standard-event{
+    --slds-c-icon-color-background: #555555;
     fill: #555555;
 }
+
+
 
 
 @media (max-width: 768px) {
