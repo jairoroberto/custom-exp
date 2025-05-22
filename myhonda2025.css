@@ -189,3 +189,212 @@ button.slds-button.slds-button_brand:hover {
 }
 
 
+
+
+/* CSS Global Edson */
+/**
+ * myHonda 2.0
+ * definição de estilos padrão da Comunidade
+ */
+/*@import url('/resource/myH2_Community_Style?v1');*/
+
+
+:host {
+    --lwc-colorBorder: #dddddd !important;
+    --lwc-progressColorBorderActive: #cc0000 !important;
+    --slds-c-modal-footer-color-background: #f2f2f2 !important;
+}
+
+
+/* tira o fundo branco das páginas */
+.siteforceServiceBody .siteforceContentArea {
+    background: none !important;
+}
+
+/**
+ * myH2-container
+ */
+/*define o container geral do componente */
+.myH2-container {
+    margin: 0 .35rem;
+    width: 1152px;
+
+	/* define as caixas de conteúdo padrão */
+	& .myH2-box {
+		background-color: #ffffff;
+		border: 1px solid #dddddd;
+		border-radius: 8px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+		margin: 0 auto 20px auto;
+		overflow: hidden;
+		width: 100%;
+		
+		/* define o espaço entre o conteúdo e a borda do box  */
+		& .inside {
+			padding: 1rem;
+		}
+
+
+		/**
+		 * HEADER
+		 */
+		&.header {
+			& .inside {
+				color: #c00;
+				font-weight: bold;
+			}
+			& .top {
+				background-color: #f9f9f9;
+				border-bottom: 1px dashed #dddddd;
+				color: #000000;
+			}
+			& div.title, lightning-icon, ul {
+				display: inline-block;
+				vertical-align: middle;
+			}
+			& lightning-icon {
+				background: #c00;
+				margin-right: .5rem;
+			}
+			& h1 {
+				color: #262626;
+				font-size: 1rem;
+				line-height: 1.1rem;
+			}
+			& h2 {
+				color: #c00;
+				font-size: .7rem;
+			}
+			
+			& .actions {
+				float: right;
+				margin: .15rem 0 0 1rem;
+			}
+			/* define o estilo dos botões  */
+			& .actions lightning-button button {
+				border-color: #ddd;
+				border-radius: 0;
+				border-right: none;
+				color: #c00;
+			}
+			& .actions lightning-button:first-child button  {
+				border-bottom-left-radius: var(--slds-c-button-radius-border,.25rem);
+				border-top-left-radius: var(--slds-c-button-radius-border,.25rem);
+			}
+			& .actions lightning-button:last-child button {
+				border-bottom-right-radius: var(--slds-c-button-radius-border,.25rem);
+				border-top-right-radius: var(--slds-c-button-radius-border,.25rem);
+				border-right: 1px solid #ddd;
+			}
+			& ul {
+				margin-right: 3rem;
+				
+				& li:first-child {
+					color: #8d8d8d;
+					font-size: .75rem;
+					text-transform: uppercase;
+				}
+				& li:last-child {
+					color: #c00;
+					font-size: .9rem;
+					font-weight: 700;
+				}
+			}
+		}
+
+
+		/**
+		* CONTENT
+		*/
+		&.content {
+			& p {
+				margin-bottom: 1rem;
+			}
+		}
+
+
+		/**
+		* FOOTER
+		*/
+		&.footer {
+			/* TO BE DEFINED */
+			
+			/* Exemplo */
+			& .inside {
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+
+/* Badges para SLA */
+.sla-badge {
+	display: inline-block;
+	padding: .25rem 1rem;
+	border-radius: 2.5rem;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+
+	&.success {
+		background-color: #CCFFB4;
+		color: #2F9001;
+	}
+	&.warning {
+		background-color: #FFE7B8;
+		color: #DB9000;
+	}
+	&.danger {
+		background-color: #FFCBCB;
+		color: #850000;
+	}
+}
+
+
+/**
+ * Accordion
+ */
+.slds-accordion__list-item {
+	border-top: 0 !important;
+    margin-bottom: 1.5rem;
+}
+.slds-accordion__list-item:last-child {
+    margin-bottom: 0;
+}
+.slds-accordion__summary {
+	background-color: #f2f2f2 !important;
+	border-radius: .35rem;
+    padding: .55rem .75rem;
+}
+lightning-accordion-section:lastChild .slds-accordion__summary {
+    padding-bottom: 0;
+}
+.slds-accordion__content {
+    padding: 1rem 0 0;
+}
+
+
+/**
+ * MODAL
+ */
+.slds-modal__header h2 {
+    font-weight: bold;
+}
+
+.slds-modal__content {
+    &.slds-p-around_medium {
+        /* padding: 2rem 1rem !important; */
+    }
+
+    & .title-step{
+        color: #CC0000;
+        font-size: 20px;
+        padding-top: 30px;
+        font-weight: bold;
+    }
+}
+
+
