@@ -37,9 +37,9 @@
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing
   .slds-form-element__control
   img[alt="SLA3"] {
-  height: auto;
-  width: 132px;
-  margin-bottom: 4px;
+  height: auto !important;
+  width: 132px !important;
+  margin-bottom: 4px !important;
 }
 
 .slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
