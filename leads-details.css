@@ -16,3 +16,10 @@
   border-radius: 4px;
   padding: 1rem;
 }
+
+.slds-tabs_default.js-tabset.forceCommunityTabLayout
+  div[role="tabpanel"].forceCommunityRecordHomeTabs
+  .forceCommunityRecordHomeTabs
+  .recordHomePrimaryContent {
+  background: #ffcc20;
+}
