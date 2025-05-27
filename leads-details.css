@@ -58,3 +58,9 @@
   background: #cc0000;
   color: #fff;
 }
+
+h3.test-id__section-header-container.slds-section__title button {
+  background: #f2f2f2;
+  font-size: 0.9rem;
+  padding: 0.2rem 0.6rem;
+}
