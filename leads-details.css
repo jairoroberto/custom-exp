@@ -1,0 +1,10 @@
+.forceCommunityRecordHeadline {
+  background: #f2f2f2;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
+  border-top: 2px dashed #cc000;
+}
