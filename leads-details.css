@@ -41,3 +41,20 @@
   width: 132px;
   margin-bottom: 4px;
 }
+
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
+  div
+  ul
+  li:nth-child(1)
+  button {
+  background: #35363b;
+  color: #fff;
+}
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
+  div
+  ul
+  li:nth-child(2)
+  button {
+  background: #cc0000;
+  color: #fff;
+}
