@@ -29,3 +29,15 @@
   font-size: 0.75rem;
   -webkit-font-smoothing: antialiased;
 }
+
+.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
+  border-bottom: 1px solid #ddd;
+}
+
+.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing
+  .slds-form-element__control
+  img[alt="SLA03"] {
+  width: 100px;
+  height: auto;
+  margin-bottom: 4px;
+}
