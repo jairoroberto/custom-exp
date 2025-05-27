@@ -8,5 +8,11 @@
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
-  border-top: 2px dashed #cc0000;
+  border-top: 1px dashed #dddddd;
+}
+
+.slds-tabs_default.js-tabset.forceCommunityTabLayout {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
 }
