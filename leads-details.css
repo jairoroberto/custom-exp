@@ -4,7 +4,7 @@
   border-radius: 4px;
   overflow: hidden;
   padding: 0px;
-  border-bottom: 4px solid #cc0000;
+  /* border-bottom: 4px solid #cc0000; */
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
