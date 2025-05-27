@@ -19,7 +19,6 @@
 
 .slds-tabs_default.js-tabset.forceCommunityTabLayout
   div[role="tabpanel"].forceCommunityRecordHomeTabs
-  .forceCommunityRecordHomeTabs
   .recordHomePrimaryContent {
   background: #ffcc20;
 }
