@@ -45,6 +45,14 @@
 .slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
   div
   ul
+  li
+  button {
+  border-color: #ddd !important;
+}
+
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
+  div
+  ul
   li:nth-child(1)
   button {
   background: #35363b;
