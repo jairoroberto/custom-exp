@@ -19,6 +19,6 @@
 .slds-tabs_default.js-tabset.forceCommunityTabLayout
   .forceCommunityRecordHomeTabs
   .recordHomePrimaryContent {
-  background: #ffcc20;
+  /* background: #ffcc20; */
   width: 100%;
 }
