@@ -1,10 +1,12 @@
 # TASKS 
 
-- [x] Botão Filtros Avançado
-- [x] Botão Modal "Continuar"
-- [x] Padding-bottom Step1 Form
-- [x] Definição de Campanhas - Revisar todos o forms. (Leads e Clientes - Step 1)
-- Paths: force-app/main/default/aura/CreateCampaignAccount/CreateCampaignAccount.cmp + force-app/main/default/aura/CreateCampaignLead/CreateCampaignLead.cmp
+#Linkando o CSS Exp. Cloud - Github Pages - Configurar CSP:
+## Global:
+[https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)
+- `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >`
+## By Page:
+[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
+- Lead Detail: - `<[link href='https://jairoroberto.github.io/custom-exp/leads-details.css' rel='stylesheet' >`
 
 
 Lista de comandos do Git com o padrão de escrita usando crases em todas as linhas:
@@ -39,15 +41,6 @@ Lista de comandos do Git com o padrão de escrita usando crases em todas as linh
 - `git tag [nome]`: Marca um ponto específico na história do repositório como uma versão.
 - `git blame [arquivo]`: Mostra quem fez cada alteração em um arquivo.
 - `git show [commit]`: Exibe informações sobre um commit específico.
-
-#Linkando o CSS Exp. Cloud - Github Pages - Configurar CSP:
-## Global:
-[https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)
-- `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >`
-## By Page:
-[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
-- Lead Detail: - `<[link href='https://jairoroberto.github.io/custom-exp/leads-details.css' rel='stylesheet' >`
-
 
 
 
