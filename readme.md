@@ -45,7 +45,7 @@ Lista de comandos do Git com o padrão de escrita usando crases em todas as linh
 [https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)
 - `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >`
 ## By Page:
-[https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
+[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
 - Lead Detail: - `<[link href='https://jairoroberto.github.io/custom-exp/leads-details.css' rel='stylesheet' >`
 
 
