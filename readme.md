@@ -40,6 +40,13 @@ Lista de comandos do Git com o padrão de escrita usando crases em todas as linh
 - `git blame [arquivo]`: Mostra quem fez cada alteração em um arquivo.
 - `git show [commit]`: Exibe informações sobre um commit específico.
 
+#Linkando o CSS Exp. Cloud - Github Pages - Configurar CSP:
+## Global:
+- `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >](https://jairoroberto.github.io/custom-exp/myhonda2025.css)`
+## By Page:
+- `<[link href='[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)' rel='stylesheet' >]`
+
+
 
 *This is a URL Link ref:*
 https://jairoroberto.github.io/custom-exp/custom-uat.css
