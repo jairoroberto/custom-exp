@@ -239,6 +239,10 @@ button.slds-button.slds-button_brand:hover {
   }
 }
 
+.test-listViewManager .forceCommunityRecordListDesktop .forceListViewManagerGrid tbody td:hover {
+  background-color: transparent !important;
+}
+
 /* FIM LIST VIEW CHANGES */
 
 /* CSS Global Edson */
