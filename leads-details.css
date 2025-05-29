@@ -16,9 +16,7 @@
   border-radius: 4px;
   padding: 1rem;
 }
-.slds-tabs_default.js-tabset.forceCommunityTabLayout
-  .forceCommunityRecordHomeTabs
-  .recordHomePrimaryContent {
+.slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
   /* background: #ffcc20; */
   width: 100%;
 }
@@ -42,27 +40,15 @@
   margin-bottom: 4px !important;
 }
 
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
-  div
-  ul
-  li
-  button {
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li button {
   border-color: #dddddd !important;
 }
 
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
-  div
-  ul
-  li:nth-child(1)
-  button {
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(1) button {
   background: #35363b;
   color: #fff;
 }
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
-  div
-  ul
-  li:nth-child(2)
-  button {
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(2) button {
   background: #cc0000;
   color: #fff;
 }
