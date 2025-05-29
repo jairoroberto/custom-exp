@@ -218,17 +218,6 @@ button.slds-button.slds-button_brand:hover {
 .test-listViewManager .slds-table--bordered {
   border-bottom: 1px dashed #ddd !important;
 }
-/* .test-listViewManager {
-  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
-  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > th:not(.slds-has-focus),
-  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > td:not(.slds-has-focus),
-  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > th:not(.slds-has-focus),
-  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
-  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > th:not(.slds-has-focus),
-  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:focus > td:not(.slds-has-focus),
-  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:focus > th:not(.slds-has-focus) {
-    box-shadow: none !important
-} */
 
 .test-listViewManager {
   & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
