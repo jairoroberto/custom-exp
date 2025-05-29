@@ -180,12 +180,9 @@ button.slds-button.slds-button_brand:hover {
 
 /* LIST VIEW STANDARD CHANGES */
 
-.slds-col--padded.comm-content-header.comm-layout-column:has(.subheader-listview) {
+.slds-col--padded.comm-content-header.comm-layout-column:has(.subheader-listview) div[data-region-name="header"] {
   background: #ffcc20;
-}
-
-.slds-col--padded.comm-content-header.comm-layout-column:has(.subheader-listview) {
-  background: #009577;
+  padding: 0 !important;
 }
 
 .subheader-listview {
