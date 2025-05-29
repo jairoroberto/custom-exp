@@ -189,6 +189,11 @@ button.slds-button.slds-button_brand:hover {
   border: 1px solid #ddd !important;
 }
 
+.test-listViewManager .slds-table_bordered tbody td,
+.test-listViewManager .slds-table--bordered tbody td {
+  border-top: 1px dotted #ddd !important;
+}
+
 /* FIM LIST VIEW CHANGES */
 
 /* CSS Global Edson */
