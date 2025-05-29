@@ -173,10 +173,7 @@ button.slds-button.slds-button_brand:hover {
   lightning-button.c-action-subheader {
     width: 100%;
   }
-  .sub-header-container
-    .buttons-container
-    lightning-button.c-action-subheader
-    button {
+  .sub-header-container .buttons-container lightning-button.c-action-subheader button {
     width: 100%;
   }
 }
@@ -206,110 +203,110 @@ button.slds-button.slds-button_brand:hover {
 .myH2-container {
   margin: 0 0.35rem;
   width: 1152px;
+}
 
-  /* define as caixas de conteúdo padrão */
-  & .myH2-box {
-    background-color: #ffffff;
-    border: 1px solid #dddddd;
-    border-radius: 8px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-    margin: 0 auto 20px auto;
-    overflow: hidden;
-    width: 100%;
+/* define as caixas de conteúdo padrão */
+.myH2-box {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  margin: 0 auto 20px auto;
+  overflow: hidden;
+  width: 100%;
 
-    /* define o espaço entre o conteúdo e a borda do box  */
-    & .inside {
-      padding: 1rem;
-    }
+  /* define o espaço entre o conteúdo e a borda do box  */
+  & .inside {
+    padding: 1rem;
+  }
 
-    /**
+  /**
 		 * HEADER
 		 */
-    &.header {
-      & .inside {
-        color: #c00;
-        font-weight: bold;
-      }
-      & .top {
-        background-color: #f9f9f9;
-        border-bottom: 1px dashed #dddddd;
-        color: #000000;
-      }
-      & div.title,
-      lightning-icon,
-      ul {
-        display: inline-block;
-        vertical-align: middle;
-      }
-      & lightning-icon {
-        background: #c00;
-        margin-right: 0.5rem;
-      }
-      & h1 {
-        color: #262626;
-        font-size: 1rem;
-        line-height: 1.1rem;
-      }
-      & h2 {
-        color: #c00;
-        font-size: 0.7rem;
-      }
-
-      & .actions {
-        float: right;
-        margin: 0.15rem 0 0 1rem;
-      }
-      /* define o estilo dos botões  */
-      & .actions lightning-button button {
-        border-color: #ddd;
-        border-radius: 0;
-        border-right: none;
-        color: #c00;
-      }
-      & .actions lightning-button:first-child button {
-        border-bottom-left-radius: var(--slds-c-button-radius-border, 0.25rem);
-        border-top-left-radius: var(--slds-c-button-radius-border, 0.25rem);
-      }
-      & .actions lightning-button:last-child button {
-        border-bottom-right-radius: var(--slds-c-button-radius-border, 0.25rem);
-        border-top-right-radius: var(--slds-c-button-radius-border, 0.25rem);
-        border-right: 1px solid #ddd;
-      }
-      & ul {
-        margin-right: 3rem;
-
-        & li:first-child {
-          color: #8d8d8d;
-          font-size: 0.75rem;
-          text-transform: uppercase;
-        }
-        & li:last-child {
-          color: #c00;
-          font-size: 0.9rem;
-          font-weight: 700;
-        }
-      }
+  &.header {
+    & .inside {
+      color: #c00;
+      font-weight: bold;
+    }
+    & .top {
+      background-color: #f9f9f9;
+      border-bottom: 1px dashed #dddddd;
+      color: #000000;
+    }
+    & div.title,
+    lightning-icon,
+    ul {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    & lightning-icon {
+      background: #c00;
+      margin-right: 0.5rem;
+    }
+    & h1 {
+      color: #262626;
+      font-size: 1rem;
+      line-height: 1.1rem;
+    }
+    & h2 {
+      color: #c00;
+      font-size: 0.7rem;
     }
 
-    /**
+    & .actions {
+      float: right;
+      margin: 0.15rem 0 0 1rem;
+    }
+    /* define o estilo dos botões  */
+    & .actions lightning-button button {
+      border-color: #ddd;
+      border-radius: 0;
+      border-right: none;
+      color: #c00;
+    }
+    & .actions lightning-button:first-child button {
+      border-bottom-left-radius: var(--slds-c-button-radius-border, 0.25rem);
+      border-top-left-radius: var(--slds-c-button-radius-border, 0.25rem);
+    }
+    & .actions lightning-button:last-child button {
+      border-bottom-right-radius: var(--slds-c-button-radius-border, 0.25rem);
+      border-top-right-radius: var(--slds-c-button-radius-border, 0.25rem);
+      border-right: 1px solid #ddd;
+    }
+    & ul {
+      margin-right: 3rem;
+
+      & li:first-child {
+        color: #8d8d8d;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+      }
+      & li:last-child {
+        color: #c00;
+        font-size: 0.9rem;
+        font-weight: 700;
+      }
+    }
+  }
+
+  /**
 		* CONTENT
 		*/
-    &.content {
-      & p {
-        margin-bottom: 1rem;
-      }
+  &.content {
+    & p {
+      margin-bottom: 1rem;
     }
+  }
 
-    /**
+  /**
 		* FOOTER
 		*/
-    &.footer {
-      /* TO BE DEFINED */
+  &.footer {
+    /* TO BE DEFINED */
 
-      /* Exemplo */
-      & .inside {
-        text-align: center;
-      }
+    /* Exemplo */
+    & .inside {
+      text-align: center;
     }
   }
 }
