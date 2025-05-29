@@ -179,6 +179,18 @@ button.slds-button.slds-button_brand:hover {
 }
 
 /* LIST VIEW STANDARD CHANGES */
+
+.subheader-listview {
+  margin: 0;
+}
+.subheader-listview h2 {
+  font-size: 1.4rem;
+}
+
+.subheader-listview p {
+  font-size: 1rem;
+}
+
 .test-listViewManager {
   /* --lwc-borderRadiusMedium: 4px;
   --slds-c-card-spacing-blockend: 1rem;
