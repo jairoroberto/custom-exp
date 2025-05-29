@@ -195,6 +195,11 @@ button.slds-button.slds-button_brand:hover {
   border-top: 1px dotted #ddd !important;
 }
 
+.test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img {
+  width: 100px;
+  height: auto !important;
+}
+
 /* FIM LIST VIEW CHANGES */
 
 /* CSS Global Edson */
