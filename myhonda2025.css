@@ -240,7 +240,7 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .test-listViewManager .slds-table_edit.slds-table tbody tr:hover > .slds-cell-edit:hover,
-.slds-table--edit.slds-table tbody tr:hover > .slds-cell-edit:hover {
+.test-listViewManager .slds-table--edit.slds-table tbody tr:hover > .slds-cell-edit:hover {
   background-color: #f5f5f5 !important;
 }
 
