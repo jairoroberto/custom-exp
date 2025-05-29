@@ -181,15 +181,14 @@ button.slds-button.slds-button_brand:hover {
 /* LIST VIEW STANDARD CHANGES */
 
 .slds-col--padded.comm-content-header.comm-layout-column:has(.subheader-listview) div[data-region-name="header"] {
-  background: #ffcc20;
-  padding: 0 !important;
+  margin: 1rem 0 0 0 !important;
 }
 
 .subheader-listview {
   margin: 0;
 }
 .subheader-listview h2 {
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
 }
 
 .subheader-listview p {
