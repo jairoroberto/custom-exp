@@ -239,8 +239,9 @@ button.slds-button.slds-button_brand:hover {
   }
 }
 
-.test-listViewManager .forceCommunityRecordListDesktop .forceListViewManagerGrid tbody td:hover {
-  background-color: transparent !important;
+.test-listViewManager .slds-table_edit.slds-table tbody tr:hover > .slds-cell-edit:hover,
+.slds-table--edit.slds-table tbody tr:hover > .slds-cell-edit:hover {
+  background-color: #f5f5f5 !important;
 }
 
 /* FIM LIST VIEW CHANGES */
