@@ -207,15 +207,36 @@ button.slds-button.slds-button_brand:hover {
   height: auto !important;
 }
 
-.slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
+.test-listViewManager
+  .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
   background: #f2f2f2;
   padding: 0.75rem;
   border-bottom: 3px solid #ccc;
 }
 
-.slds-table_bordered,
-.slds-table--bordered {
+.test-listViewManager .slds-table_bordered,
+.test-listViewManager .slds-table--bordered {
   border-bottom: 1px dashed #ddd !important;
+}
+/* .test-listViewManager {
+  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
+  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > th:not(.slds-has-focus),
+  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > td:not(.slds-has-focus),
+  .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > th:not(.slds-has-focus),
+  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
+  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:hover > th:not(.slds-has-focus),
+  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:focus > td:not(.slds-has-focus),
+  .slds-table--bordered:not(.slds-no-row-hover) tbody tr:focus > th:not(.slds-has-focus) {
+    box-shadow: none !important
+} */
+
+.test-listViewManager {
+  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > td:not(.slds-has-focus),
+  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:hover > th:not(.slds-has-focus),
+  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > td:not(.slds-has-focus),
+  & .slds-table_bordered:not(.slds-no-row-hover) tbody tr:focus > th:not(.slds-has-focus) {
+    box-shadow: none !important;
+  }
 }
 
 /* FIM LIST VIEW CHANGES */
