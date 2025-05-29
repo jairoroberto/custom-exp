@@ -196,7 +196,12 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img {
-  width: 100px;
+  width: 110px !important;
+  height: auto !important;
+}
+
+.test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img[src*="icon-whats.png"] {
+  width: 20px !important;
   height: auto !important;
 }
 
