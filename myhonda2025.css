@@ -213,6 +213,11 @@ button.slds-button.slds-button_brand:hover {
   border-bottom: 3px solid #ccc;
 }
 
+.slds-table_bordered,
+.slds-table--bordered {
+  border-bottom: 1px dashed #ddd !important;
+}
+
 /* FIM LIST VIEW CHANGES */
 
 /* CSS Global Edson */
