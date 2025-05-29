@@ -192,7 +192,7 @@ button.slds-button.slds-button_brand:hover {
 .test-listViewManager .slds-table_bordered tbody td,
 .test-listViewManager .slds-table--bordered tbody td,
 .test-listViewManager .slds-table--bordered tbody th {
-  border-top: 1px dotted #ddd !important;
+  border-top: 1px solid #f1f1f1 !important;
   padding: 0.35rem 0.5rem;
   font-size: 0.75rem;
 }
