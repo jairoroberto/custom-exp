@@ -182,7 +182,8 @@ button.slds-button.slds-button_brand:hover {
 .test-listViewManager {
   --lwc-borderRadiusMedium: 4px;
   --slds-c-card-spacing-blockend: 1rem;
-  --slds-c-card-spacing-start: 1rem;
+  --slds-c-card-spacing-block-start: 1rem;
+
   /* padding: 1rem; */
   /* border-radius: 4px !immportant; */
   border: 1px solid #ddd !important;
