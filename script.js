@@ -45,5 +45,3 @@ const handleReload = (event) => {
 
 document.getElementById('updatePage')?.addEventListener('click', handleReload);
 document.getElementById('updatePageImg')?.addEventListener('click', handleReload);
-
-

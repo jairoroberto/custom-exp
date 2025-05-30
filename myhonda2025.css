@@ -11,6 +11,33 @@ body .cNotifications .unsNotificationsCounter .slds-button_icon {
   color: #cc0000;
 }
 
+/* TELA DE LOGIN */
+img.communityLogo {
+  margin-bottom: 1rem;
+}
+div#LoginNew a {
+  color: #cc0000;
+}
+
+div#LoginNew {
+  background: #fff;
+}
+
+div#centerPanel {
+  max-width: 600px;
+  min-width: 460px;
+  padding: 1rem;
+}
+
+.salesforceIdentityLoginForm2 {
+  background: #fff;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* FIM TELA DE LOGIN */
+
 /* Structure */
 .card-opp {
   width: 100%;
