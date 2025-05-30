@@ -20,7 +20,7 @@ div#LoginNew a {
 }
 
 div#LoginNew {
-  background: #fff;
+  background: #fff !important;
 }
 
 div#centerPanel {
@@ -30,7 +30,7 @@ div#centerPanel {
 }
 
 .salesforceIdentityLoginForm2 {
-  background: #fff;
+  background: #f2f2f2;
   padding: 2rem;
   border: 1px solid #ddd;
   border-radius: 4px;
