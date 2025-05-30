@@ -50,22 +50,22 @@ div#centerPanel {
 }
 
 .salesforceIdentityLoginForm2 .inputIcon {
-    --lwc-colorTextPlaceholder: #ccc;
-    top: 7px !important;
-    position: relative;
-    left: 0 !important;
+  --lwc-colorTextPlaceholder: #ccc;
+  top: 7px !important;
+  position: relative;
+  left: 0 !important;
 }
 
 .salesforceIdentityLoginForm2 .uiButton {
-  margin-top: 12px !important
-  --lwc-colorBackgroundButtonBrand: #cc0000 !important;
+  margin-top: 12px !important;
   background: #cc0000 !important;
   border-radius: 4px !important;
+  transition: all 0.3s ease;
 }
 
-.salesforceIdentityLoginForm2 .uiButton:hover{
-  --lwc-colorBackgroundButtonBrand: #C50627 !important;
-   background: #C50627 !important;
+.salesforceIdentityLoginForm2 .uiButton:hover {
+  background: #a5021e !important;
+  transition: all 0.3s ease;
 }
 
 /* FIM TELA DE LOGIN */
