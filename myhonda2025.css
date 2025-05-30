@@ -51,9 +51,19 @@ div#centerPanel {
 
 .salesforceIdentityLoginForm2 .inputIcon {
   --lwc-colorTextPlaceholder: #ccc;
-  top: 3px;
+  top: 8px;
   position: relative;
-  left: 4px;
+  left: 0px;
+}
+
+.salesforceIdentityLoginForm2 .uiButton {
+  margin-top: 12px !important
+  --lwc-colorBackgroundButtonBrand: #cc0000;
+  border-radius: 4px !important;
+}
+
+.salesforceIdentityLoginForm2 .uiButton{
+  --lwc-colorBackgroundButtonBrand: #cc0000;
 }
 
 /* FIM TELA DE LOGIN */
