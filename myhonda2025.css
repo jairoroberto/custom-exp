@@ -20,7 +20,9 @@ div#LoginNew a {
 }
 
 div#LoginNew {
-  background: #fff !important;
+  background-size: 55%;
+  background-color: #fff;
+  background-position: center 0px;
 }
 
 div#centerPanel {
