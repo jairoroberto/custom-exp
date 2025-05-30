@@ -50,10 +50,10 @@ div#centerPanel {
 }
 
 .salesforceIdentityLoginForm2 .inputIcon {
-  --lwc-colorTextPlaceholder: #ccc;
-  top: 8px;
-  position: relative;
-  left: 0px;
+    --lwc-colorTextPlaceholder: #ccc;
+    top: 7px !important;
+    position: relative;
+    left: 0 !important;
 }
 
 .salesforceIdentityLoginForm2 .uiButton {
