@@ -44,6 +44,13 @@ div#centerPanel {
   border-radius: 4px;
 }
 
+.salesforceIdentityLoginForm2 .inputIcon {
+  --lwc-colorTextPlaceholder: #ccc;
+  top: 3px;
+  position: relative;
+  left: 4px;
+}
+
 /* FIM TELA DE LOGIN */
 
 /* Structure */
