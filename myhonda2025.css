@@ -58,12 +58,12 @@ div#centerPanel {
 
 .salesforceIdentityLoginForm2 .uiButton {
   margin-top: 12px !important
-  --lwc-colorBackgroundButtonBrand: #cc0000;
+  --lwc-colorBackgroundButtonBrand: #cc0000 !important;
   border-radius: 4px !important;
 }
 
-.salesforceIdentityLoginForm2 .uiButton{
-  --lwc-colorBackgroundButtonBrand: #cc0000;
+.salesforceIdentityLoginForm2 .uiButton:hover{
+  --lwc-colorBackgroundButtonBrand: #C50627 !important;
 }
 
 /* FIM TELA DE LOGIN */
