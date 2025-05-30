@@ -53,7 +53,7 @@ div#centerPanel {
 }
 
 .salesforceIdentityLoginForm2 .inputContainer:focus-within {
-  border: 1px solid #cc0000 !important;
+  border: 1px solid #333 !important;
 }
 
 .uiInput--input.input:focus,
