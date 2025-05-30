@@ -52,6 +52,17 @@ div#centerPanel {
   height: 32px;
 }
 
+.salesforceIdentityLoginForm2 .inputContainer:focus-within {
+  border: 1px solid #cc0000 !important;
+}
+
+.uiInput--input.input:focus,
+.uiInput--input .input:focus,
+.uiInput--input.input:active,
+.uiInput--input .input:active {
+  box-shadow: none !important;
+}
+
 .salesforceIdentityLoginForm2 .inputIcon {
   --lwc-colorTextPlaceholder: #ccc;
   top: 7px !important;
