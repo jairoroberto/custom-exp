@@ -35,6 +35,9 @@ div#centerPanel {
   border: 1px solid #ddd;
   border-radius: 4px;
 }
+.salesforceIdentityLoginForm2 .inputContainer {
+  margin-bottom: 20px;
+}
 
 /* FIM TELA DE LOGIN */
 
