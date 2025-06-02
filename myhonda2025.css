@@ -22,6 +22,7 @@ div#LoginNew a {
 .salesforceIdentityLoginBody2 {
   background: #ffffff URL("https://jairoroberto.github.io/custom-exp/bg-login.png") !important;
   background-size: cover !important;
+  background-position: bottom center !important;
 }
 
 div#LoginNew {
