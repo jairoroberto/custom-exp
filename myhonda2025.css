@@ -19,6 +19,11 @@ div#LoginNew a {
   color: #cc0000;
 }
 
+.salesforceIdentityLoginBody2 {
+  background: var(--lwc-LoginBackgroundImage, url("https://jairoroberto.github.io/custom-exp/bg-login.png")) 50% 50% / cover no-repeat fixed
+    var(--lwc-LoginBackgroundColor, #f4f4f4);
+}
+
 div#LoginNew {
   background-size: 100%;
   background-color: #fff;
