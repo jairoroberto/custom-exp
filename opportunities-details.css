@@ -27,6 +27,7 @@
 
 .forceRelatedListContainer .slds-grid.slds-page-header.forceRelatedListCardHeader {
   background: #f7f7f7;
+  font-size: 0.75rem;
 }
 /* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
 
