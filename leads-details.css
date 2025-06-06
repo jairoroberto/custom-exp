@@ -37,22 +37,27 @@ records-record-layout-item[field-label="CNPJ"] {
   display: block;
 }
 
+.slds-modal records-record-layout-item[field-label="Email"],
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
   background: #fffdee;
   display: block;
 }
+.slds-modal records-record-layout-item[field-label="CPF"],
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="CPF"] {
   background: #fffdee;
   display: block;
 }
+.slds-modal records-record-layout-item[field-label="Telefone"],
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Telefone"] {
   background: #fffdee;
   display: block;
 }
+.slds-modal records-record-layout-item[field-label="Celular"],
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Celular"] {
   background: #fffdee;
   display: block;
 }
+.slds-modal records-record-layout-item[field-label="CNPJ"],
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="CNPJ"] {
   background: #fffdee;
   display: block;
