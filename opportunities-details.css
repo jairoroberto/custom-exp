@@ -24,6 +24,10 @@
 .forceRelatedListContainer article.slds-card.slds-card_boundary.slds-card_related-list-fix.forceRelatedListCardDesktop {
   border: 1px solid #ddd;
 }
+
+.forceRelatedListContainer .slds-grid.slds-page-header.forceRelatedListCardHeader {
+  background: #f7f7f7;
+}
 /* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
 
   width: 100%;
