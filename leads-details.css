@@ -8,7 +8,7 @@
 
 /* Hide em View Dados Perfil Ex. CPF */
 records-record-layout-section:first-child {
-  /* display: none; */
+  display: none;
   background: ##fff9c4;
 }
 
@@ -18,14 +18,35 @@ records-record-layout-item[field-label="Email"] {
 records-record-layout-item[field-label="CPF"] {
   display: none;
 }
-
-.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
-  background: #99cc20;
-  display: block;
+records-record-layout-item[field-label="Telefone"] {
+  display: none;
+}
+records-record-layout-item[field-label="Celular"] {
+  display: none;
+}
+records-record-layout-item[field-label="Nome completo"] {
+  display: none;
 }
 
-.slds-fade-in-open .record-layout-container records-record-layout-section:first-child {
-  /* display: block !important; */
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
+  background: #fff9c4;
+  display: block;
+}
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="CPF"] {
+  background: #fff9c4;
+  display: block;
+}
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Telefone"] {
+  background: #fff9c4;
+  display: block;
+}
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Celular"] {
+  background: #fff9c4;
+  display: block;
+}
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Nome completo"] {
+  background: #fff9c4;
+  display: block;
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
