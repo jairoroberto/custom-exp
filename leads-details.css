@@ -13,11 +13,14 @@ records-record-layout-section:first-child {
 }
 
 records-record-layout-item[field-label="Email"] {
+  display: none;
+}
+records-record-layout-item[field-label="Email"] {
   background: #99cc20;
   display: none;
 }
 
-.form-legend-desktop.record-layout-inline-edit records-record-layout-item[field-label="Email"] {
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
   background: #99cc20;
   display: block;
 }
