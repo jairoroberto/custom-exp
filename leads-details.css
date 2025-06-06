@@ -6,6 +6,11 @@
   /* border-bottom: 4px solid #cc0000; */
 }
 
+/* Hide em View Dados Perfil Ex. CPF */
+.record-layout-container records-record-layout-section:last-child {
+  display: none;
+}
+
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
   border-top: 1px dashed #dddddd;
   top: -1px;
