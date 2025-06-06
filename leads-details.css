@@ -15,8 +15,7 @@ records-record-layout-section:first-child {
 records-record-layout-item[field-label="Email"] {
   display: none;
 }
-records-record-layout-item[field-label="Email"] {
-  background: #99cc20;
+records-record-layout-item[field-label="CPF"] {
   display: none;
 }
 
