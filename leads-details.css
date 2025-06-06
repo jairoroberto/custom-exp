@@ -12,6 +12,9 @@
   background: #fff9c4;
 } */
 
+records-record-layout-item[field-label="Nome completo"] {
+  display: none;
+}
 records-record-layout-item[field-label="Email"] {
   display: none;
 }
@@ -28,8 +31,10 @@ records-record-layout-item[field-label="CNPJ"] {
   display: none;
 }
 
-records-record-layout-item[field-label="Nome completo"] {
-  display: none;
+.slds-modal records-record-layout-item[field-label="Nome completo"],
+.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Nome completo"] {
+  background: #fffdee;
+  display: block;
 }
 
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
@@ -49,11 +54,6 @@ records-record-layout-item[field-label="Nome completo"] {
   display: block;
 }
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="CNPJ"] {
-  background: #fffdee;
-  display: block;
-}
-.slds-modal .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Nome completo"],
-.form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Nome completo"] {
   background: #fffdee;
   display: block;
 }
