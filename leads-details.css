@@ -62,7 +62,7 @@ records-record-layout-item[field-label="CNPJ"] {
 /* Fim controle de Show / Hide Edit / views alguns campos,CPF etc.. */
 
 button[type="button"]:contains("Clonar") {
-  background: #f9f9f9;
+  background: #f9f9f9 !important;
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
