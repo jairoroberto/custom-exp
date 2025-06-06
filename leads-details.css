@@ -32,9 +32,7 @@
   border-bottom: 1px solid #ddd;
 }
 
-.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing
-  .slds-form-element__control
-  img[alt="SLA3"] {
+.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing .slds-form-element__control img[alt="SLA3"] {
   height: auto !important;
   width: 132px !important;
   margin-bottom: 4px !important;
@@ -48,10 +46,10 @@
   background: #ffffff;
   color: #333;
 }
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(2) button {
+/* .slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(2) button {
   background: #f2f2f2;
   color: #333;
-}
+} */
 
 h3.test-id__section-header-container.slds-section__title button {
   background: #f2f2f2;
