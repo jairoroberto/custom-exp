@@ -58,10 +58,10 @@
   background: #ffffff;
   color: #333;
 }
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(2) button {
+/* .slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(2) button {
   background: #f2f2f2;
   color: #333;
-}
+} */
 
 h3.test-id__section-header-container.slds-section__title button {
   background: #f2f2f2;
