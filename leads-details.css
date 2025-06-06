@@ -24,9 +24,9 @@ records-record-layout-item[field-label="Telefone"] {
 records-record-layout-item[field-label="Celular"] {
   display: none;
 }
-records-record-layout-item[field-label="Nome completo"] {
+/* records-record-layout-item[field-label="Nome completo"] {
   display: none;
-}
+} */
 
 .form-legend-desktop.record-layout-inline-edit + div records-record-layout-item[field-label="Email"] {
   background: #fff9c4;
