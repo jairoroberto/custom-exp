@@ -8,7 +8,7 @@
 
 /* Hide em View Dados Perfil Ex. CPF */
 .record-layout-container records-record-layout-section:last-child {
-  display: none;
+  /* display: none; */
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
