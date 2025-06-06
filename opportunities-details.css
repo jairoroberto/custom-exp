@@ -8,6 +8,7 @@
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
   border-top: 1px dashed #dddddd;
+  top: -1px;
 }
 
 .slds-tabs_default.js-tabset.forceCommunityTabLayout {
@@ -18,6 +19,11 @@
 
 .forceRelatedListContainer {
   margin-top: 1rem;
+}
+
+.forceRelatedListContainer .forceRelatedListCardHeader .baseCard__header-title-container {
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .forceRelatedListContainer article.slds-card.slds-card_boundary.slds-card_related-list-fix.forceRelatedListCardDesktop {
