@@ -29,6 +29,10 @@
   background: #f7f7f7;
   font-size: 0.75rem;
 }
+
+.forceRelatedListContainer .forceEntityIcon .uiImage {
+  background: #cc0000;
+}
 /* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
 
   width: 100%;
