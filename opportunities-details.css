@@ -20,6 +20,10 @@
 .forceRelatedListContainer {
   margin-top: 1rem;
 }
+
+.forceRelatedListContainer article.slds-card.slds-card_boundary.slds-card_related-list-fix.forceRelatedListCardDesktop {
+  border: 1px solid #ddd;
+}
 /* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
 
   width: 100%;
