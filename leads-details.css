@@ -7,8 +7,13 @@
 }
 
 /* Hide em View Dados Perfil Ex. CPF */
-.record-layout-container records-record-layout-section:last-child {
+.record-layout-container records-record-layout-section:fisrt-child {
   /* display: none; */
+  background: #ffcc20;
+}
+
+.slds-fade-in-open .record-layout-container records-record-layout-section:first-child {
+  /* display: block !important; */
 }
 
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
