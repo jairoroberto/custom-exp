@@ -7,10 +7,10 @@
 }
 
 /* Hide em View Dados Perfil Ex. CPF */
-records-record-layout-section:first-child {
+/* records-record-layout-section:first-child {
   display: none;
   background: ##fff9c4;
-}
+} */
 
 records-record-layout-item[field-label="Email"] {
   display: none;
