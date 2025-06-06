@@ -7,9 +7,13 @@
 }
 
 /* Hide em View Dados Perfil Ex. CPF */
-.record-layout-container records-record-layout-section:fisrt-child {
+records-record-layout-section:first-child {
   /* display: none; */
   background: #ffcc20;
+}
+
+records-record-layout-item[field-label="Email"] {
+  background: #99cc20;
 }
 
 .slds-fade-in-open .record-layout-container records-record-layout-section:first-child {
@@ -27,7 +31,6 @@
   padding: 1rem;
 }
 .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
-  /* background: #ffcc20; */
   width: 100%;
 }
 
