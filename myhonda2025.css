@@ -1,3 +1,102 @@
+/* Variables Custom GLOBAL */
+/* tokens */
+:root {
+  /* Mode 1 */
+  /* color */
+  --color-brand: var(--color-red-red-500, #cc0000);
+  --color-danger: var(--color-red-red-400, #ff0000);
+  --color-dark: var(--color-gray-gray-800, #262626);
+  --color-primary: var(--color-gray-gray-700, #35363b);
+  --color-secondary: var(--color-gray-gray-400, #8d8d8d);
+  --color-surface-nav: var(--color-gray-gray-500, #555555);
+  --color-white: var(--color-base-white, #ffffff);
+  /* number */
+  --padding-xs: var(--size-tw-1, 2px);
+  --padding-sm: var(--size-tw-2, 4px);
+  --padding-md: var(--size-tw-3, 8px);
+  --padding-lg: var(--size-tw-4, 12px);
+  --padding-xl: var(--size-tw-5, 16px);
+  --padding-2xl: var(--size-tw-6, 20px);
+  --padding-3xl: var(--size-tw-7, 24px);
+  --padding-4xl: var(--size-tw-8, 32px);
+  --rounded-rounded-sm: var(--size-tw-2, 4px);
+  --rounded-rounded-md: var(--size-tw-3, 8px);
+  --rounded-rounded-lg: var(--size-tw-4, 12px);
+  /* string */
+  --string: var(--var-subject-meeting-reunião, Reunião);
+  --var-subject-meeting-e-mail: E-mail;
+  --var-subject-meeting-ligação: Ligação;
+  --var-subject-meeting-outros: Outros;
+  --var-subject-meeting-reunião: Reunião;
+}
+/* primitives */
+:root {
+  /* Mode 1 */
+  /* color */
+  --color-base-black: #000000;
+  --color-base-white: #ffffff;
+  --color-blue-blue-100: #b7f2ff;
+  --color-blue-blue-700: #0b5cab;
+  --color-gray-gray-100: #f2f2f2;
+  --color-gray-gray-200: #dddddd;
+  --color-gray-gray-300: #cacbcc;
+  --color-gray-gray-400: #8d8d8d;
+  --color-gray-gray-50: #f9f9f9;
+  --color-gray-gray-500: #555555;
+  --color-gray-gray-600: #3d3d3d;
+  --color-gray-gray-700: #35363b;
+  --color-gray-gray-800: #262626;
+  --color-green-green-100: #ccffb4;
+  --color-green-green-600: #00b836;
+  --color-green-green-700: #27ae60;
+  --color-red-red-100: #ffcbcb;
+  --color-red-red-400: #ff0000;
+  --color-red-red-50: #ffe0e0;
+  --color-red-red-500: #cc0000;
+  --color-red-red-600: #c50627;
+  --color-red-red-700: #9e051f;
+  --color-yellow-yellow-200: #ffe7b8;
+  --color-yellow-yellow-500: #db9000;
+  /* number */
+  --size-tw-1: 2px;
+  --size-tw-2: 4px;
+  --size-tw-3: 8px;
+  --size-tw-4: 12px;
+  --size-tw-5: 16px;
+  --size-tw-6: 20px;
+  --size-tw-7: 24px;
+  --size-tw-8: 32px;
+}
+/* typography */
+:root {
+  /* Mode 1 */
+  /* number */
+  --font-size-xs: 12px;
+  --font-size-sm: 13px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 40px;
+  /* string */
+  --font-family-body: Helvetica;
+  --font-family-title: Helvetica;
+  --font-weight-bold: Bold;
+  --font-weight-medium: Medium;
+  --font-weight-regular: Regular;
+}
+/* min & max system */
+:root {
+  /* Mode 1 */
+  /* number */
+  --h-button-default: 36px;
+  --w-container: 1232px;
+  --w-full-container: 1440px;
+}
+
+/* END Declaration Variables */
+
 html.slds-no-wcag body {
   font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
   /* font-size: 1rem; */
@@ -302,8 +401,7 @@ button.slds-button.slds-button_brand:hover {
   height: auto !important;
 }
 
-.test-listViewManager
-  .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
+.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
   background: #f2f2f2;
   padding: 0.75rem;
   border-bottom: 3px solid #ccc;
