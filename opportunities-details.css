@@ -16,10 +16,10 @@
   border-radius: 4px;
   padding: 1rem;
 }
-.slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
-  /* background: #ffcc20; */
+/* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
+
   width: 100%;
-}
+} */
 
 .forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
   text-transform: uppercase;
