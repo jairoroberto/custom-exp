@@ -16,6 +16,10 @@
   border-radius: 4px;
   padding: 1rem;
 }
+
+.forceRelatedListContainer {
+  margin-top: 1rem;
+}
 /* .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
 
   width: 100%;
