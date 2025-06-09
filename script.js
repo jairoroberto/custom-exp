@@ -50,7 +50,10 @@ document.getElementById('updatePageImg')?.addEventListener('click', handleReload
 /* a.laockTrigger */
 
 function getRecordSelected() {
-  const reg = document.querySelector("tr[aria-selected='true'] th a").getAttribute('data-recordid')
-  console.log('--- Registro do Lead/Opp Selecionado:: ', reg)
+  const reg = document.querySelector("tr[aria-selected='true'] th a")
+  if (reg) {
+    let regId = reg.getAttribute('data-recordid');
+    console.log('--- Registro do Lead/Opp Selecionado:: ', regId)
+  }
 }
 
