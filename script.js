@@ -55,5 +55,8 @@ function getRecordSelected() {
     let regId = reg.getAttribute('data-recordid');
     console.log('--- Registro do Lead/Opp Selecionado:: ', regId)
   }
+  else {
+    console.log('Nenhum Registro foi Selecionado!')
+  }
 }
 
