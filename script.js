@@ -88,11 +88,11 @@ function initializeEventListener() {
 
   if (changeOwner) {
     changeOwner.addEventListener('click', getRecordSelected);
-    changeOwner.setAttribute("disabled", false);
+    changeOwner.removeAttribute("disabled");
     console.log('Event listener adicionado com sucesso!');
   } else {
     console.log('Elemento não encontrado, tentando novamente em 1 segundo...');
-    changeOwner.setAttribute("disabled", true);
+    changeOwner.setAttribute("disabled", disabled);
     setTimeout(initializeEventListener, 1000);
   }
 }
