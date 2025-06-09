@@ -88,10 +88,11 @@ function initializeEventListener() {
 
   if (changeOwner) {
     changeOwner.addEventListener('click', getRecordSelected);
+    changeOwner.setAttribute("editable", false);
     console.log('Event listener adicionado com sucesso!');
   } else {
     console.log('Elemento não encontrado, tentando novamente em 1 segundo...');
-    changeOwner.setAttribute('disabled')
+    changeOwner.setAttribute("editable", true);
     setTimeout(initializeEventListener, 1000);
   }
 }
