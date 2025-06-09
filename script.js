@@ -71,6 +71,7 @@ function getRecordSelected() {
     regList.forEach((reg, index) => {
       let regId = reg.getAttribute('data-recordid');
       console.log(`--- Registro ${index + 1} do Lead/Opp Selecionado:: `, regId);
+      alert(`--- Registro ${index + 1} do Lead/Opp Selecionado:: `, regId);
     });
   } else {
     console.log('Nenhum Registro foi Selecionado!');
