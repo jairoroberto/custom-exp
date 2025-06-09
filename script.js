@@ -76,3 +76,10 @@ function getRecordSelected() {
     console.log('Nenhum Registro foi Selecionado!');
   }
 }
+
+const callChangeOwner = document.getElementById('callChangeOwner');
+
+callChangeOwner?.addEventListener('click', (event) => {
+  event.preventDefault();
+  getRecordSelected();
+});
