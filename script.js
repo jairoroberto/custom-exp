@@ -49,8 +49,10 @@ document.getElementById('updatePageImg')?.addEventListener('click', handleReload
 /* teste de pegar o ID do Lead/Opp  via JS */
 /* a.laockTrigger */
 
+/*
 function getRecordSelected() {
   const reg = document.querySelectorAll("tr[aria-selected='true'] th a")
+
   if (reg) {
     let regId = reg.getAttribute('data-recordid');
     console.log('--- Registro do Lead/Opp Selecionado:: ', regId)
@@ -60,3 +62,17 @@ function getRecordSelected() {
   }
 }
 
+*/
+
+function getRecordSelected() {
+  const regList = document.querySelectorAll("tr[aria-selected='true'] th a");
+
+  if (regList.length > 0) {
+    regList.forEach((reg, index) => {
+      let regId = reg.getAttribute('data-recordid');
+      console.log(`--- Registro ${index + 1} do Lead/Opp Selecionado:: `, regId);
+    });
+  } else {
+    console.log('Nenhum Registro foi Selecionado!');
+  }
+}
