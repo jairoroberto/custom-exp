@@ -78,5 +78,20 @@ function getRecordSelected() {
   }
 }
 
-const changeOwner = document.getElementById('changeOwner');
-changeOwner.addEventListener('click', getRecordSelected) 
+// const changeOwner = document.getElementById('changeOwner');
+// changeOwner.addEventListener('click', getRecordSelected) 
+
+function initializeEventListener() {
+  const changeOwner = document.getElementById('changeOwner');
+
+  if (changeOwner) {
+    changeOwner.addEventListener('click', getRecordSelected);
+    console.log('Event listener adicionado com sucesso!');
+  } else {
+    console.log('Elemento não encontrado, tentando novamente em 1 segundo...');
+    setTimeout(initializeEventListener, 1000);
+  }
+}
+
+// Chame esta função quando apropriado
+initializeEventListener();
