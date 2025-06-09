@@ -47,9 +47,10 @@ document.getElementById('updatePage')?.addEventListener('click', handleReload);
 document.getElementById('updatePageImg')?.addEventListener('click', handleReload);
 
 /* teste de pegar o ID do Lead/Opp  via JS */
+/* a.laockTrigger */
 
 function getRecordSelected() {
-  const reg = document.querySelector("tr[aria-selected='true'] th > a");
+  const reg = document.querySelector("tr[aria-selected='true'] th a").getAttribute('data-recordid')
   console.log('--- Registro do Lead/Opp Selecionado:: ', reg)
 }
 
