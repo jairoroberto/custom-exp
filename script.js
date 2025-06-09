@@ -78,9 +78,9 @@ function getRecordSelected() {
   }
 }
 
-const callChangeOwner = document.getElementById('callChangeOwner');
+const changeOwner = document.getElementById('changeOwner');
 
-callChangeOwner?.addEventListener('click', (event) => {
+changeOwner?.addEventListener('click', (event) => {
   event.preventDefault();
   getRecordSelected();
 });
