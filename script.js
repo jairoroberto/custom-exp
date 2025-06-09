@@ -89,6 +89,7 @@ function initializeEventListener() {
   if (changeOwner) {
     changeOwner.addEventListener('click', getRecordSelected);
     changeOwner.style.backgroundColor = '#ffffff';
+    changeOwner.style.Color = '#cc0000';
     console.log('Event listener adicionado com sucesso!');
   } else {
     //changeOwner.style.backgroundColor = '#cccccc';
