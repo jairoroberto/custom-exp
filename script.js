@@ -92,7 +92,7 @@ function initializeEventListener() {
     console.log('Event listener adicionado com sucesso!');
   } else {
     console.log('Elemento não encontrado, tentando novamente em 1 segundo...');
-    changeOwner.setAttribute("disabled", disabled);
+    changeOwner.setAttribute("disabled", "");
     setTimeout(initializeEventListener, 1000);
   }
 }
