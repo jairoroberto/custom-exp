@@ -67,10 +67,12 @@ function getRecordSelected() {
 function getRecordSelected() {
   const regList = document.querySelectorAll("tr[aria-selected='true'] th a");
 
+  const idSel = document.getElementById('idSel');
+
   if (regList.length > 0) {
     regList.forEach((reg, index) => {
       let regId = reg.getAttribute('data-recordid');
-      console.table(`--- Registro ${index + 1} Selected: `, regId);
+      idSel.textContent += `${regId}, `;
       console.log(`--- Registro ${index + 1} Selected: `, regId);
     });
   } else {
