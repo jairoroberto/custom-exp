@@ -80,7 +80,7 @@ function getRecordSelected() {
 
 const changeOwner = document.getElementById('changeOwner');
 
-changeOwner.addEventListener('click', (event) => {
-  event.preventDefault();
+changeOwner.addEventListener('click', () => {
+  //event.preventDefault();
   getRecordSelected();
 });
