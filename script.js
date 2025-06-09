@@ -72,7 +72,7 @@ function getRecordSelected() {
   if (regList.length > 0) {
     regList.forEach((reg, index) => {
       let regId = reg.getAttribute('data-recordid');
-      idSel.textContent += `[ ${regId}, ]`;
+      idSel.textContent += `${regId}, `;
       console.log(`--- Registro ${index + 1} Selected: `, regId);
     });
   } else {
