@@ -91,7 +91,7 @@ function initializeEventListener() {
     changeOwner.style.backgroundColor = '#ffffff';
     console.log('Event listener adicionado com sucesso!');
   } else {
-    changeOwner.style.backgroundColor = '#cccccc';
+    //changeOwner.style.backgroundColor = '#cccccc';
     setTimeout(initializeEventListener, 1000);
   }
 }
