@@ -79,4 +79,4 @@ function getRecordSelected() {
 }
 
 const changeOwner = document.getElementById('changeOwner');
-changeOwner.addEventListener('click', getRecordSelected()) 
+changeOwner.addEventListener('click', getRecordSelected) 
