@@ -48,5 +48,8 @@ document.getElementById('updatePageImg')?.addEventListener('click', handleReload
 
 /* teste de pegar o ID do Lead/Opp  via JS */
 
-const reg = document.querySelector("td[aria-selected='true']");
-console.log('--- Registro do Lead/Opp Selecionado:: ', reg)
+function getRecordSelected() {
+  const reg = document.querySelector("td[aria-selected='true']");
+  console.log('--- Registro do Lead/Opp Selecionado:: ', reg)
+}
+
