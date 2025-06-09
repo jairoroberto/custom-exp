@@ -92,7 +92,7 @@ function initializeEventListener() {
     console.log('Event listener adicionado com sucesso!');
   } else {
     console.log('Elemento não encontrado, tentando novamente em 1 segundo...');
-    c changeOwner.style.backgroundColor = '#cccccc'
+    changeOwner.style.backgroundColor = '#cccccc'
     setTimeout(initializeEventListener, 1000);
   }
 }
