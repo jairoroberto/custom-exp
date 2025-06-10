@@ -634,5 +634,9 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
 
 /* Temporary CSS */
 .subheader-listview p button {
-  font-size: 0.8rem !important;
+  font-size: 0.7rem !important;
+  margin-left: 1rem;
+  padding: 0 10px !important;
+  border: 1px solid #ddd !important;
+  color: #666;
 }
