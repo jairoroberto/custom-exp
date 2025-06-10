@@ -94,7 +94,5 @@ function initializeEventListener() {
   }
 }
 
-
-
 // Chame esta função quando apropriado
 initializeEventListener();

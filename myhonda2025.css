@@ -362,7 +362,7 @@ button.slds-button.slds-button_brand:hover {
   margin: 1rem 0 0 0 !important;
 }
 
-.subheader-listview {
+/* .subheader-listview {
   margin: 0;
 }
 .subheader-listview h2 {
@@ -371,7 +371,7 @@ button.slds-button.slds-button_brand:hover {
 
 .subheader-listview p {
   font-size: 1rem;
-}
+} */
 
 .test-listViewManager {
   /* --lwc-borderRadiusMedium: 4px;
