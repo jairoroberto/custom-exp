@@ -631,3 +631,8 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
     font-weight: bold;
   }
 }
+
+/* Temporary CSS */
+.subheader-listview p button {
+  font-size: 0.8rem;
+}
