@@ -634,5 +634,5 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
 
 /* Temporary CSS */
 .subheader-listview p button {
-  font-size: 0.8rem;
+  font-size: 0.8rem !important;
 }
