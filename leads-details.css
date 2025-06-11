@@ -77,7 +77,7 @@ button[type="button"]:contains("Clonar") {
   padding-left: var(--lwc-spacingXLarge, 0rem);
   max-width: 270px !important;
   /* width: calc(16.33332% - 20px); */
-  border: 1px solid #ddd;
+  /* border: 1px solid #ddd; */
 }
 
 .forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
