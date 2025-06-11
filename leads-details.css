@@ -83,7 +83,7 @@ button[type="button"]:contains("Clonar") {
 .forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
   text-transform: uppercase;
   /* min-width: 110px; */
-  font-size: 10px;
+  font-size: 11px;
   -webkit-font-smoothing: antialiased;
 }
 
