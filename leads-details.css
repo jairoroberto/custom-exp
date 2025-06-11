@@ -65,9 +65,17 @@ button[type="button"]:contains("Clonar") {
   background: #f9f9f9 !important;
 }
 
+/* COMPACT LAYOUT PARCIAL */
 .forceCommunityRecordHeadline .slds-grid.slds-page-header__detail-row {
   border-top: 1px dashed #dddddd;
   top: -1px;
+}
+
+.slds-page-header__detail-block {
+  --lwc-spacingXLarge: 0px !important;
+  padding-right: var(--lwc-spacingXLarge, 0rem);
+  padding-left: var(--lwc-spacingXLarge, 0rem);
+  max-width: 25%;
 }
 
 .slds-tabs_default.js-tabset.forceCommunityTabLayout {
