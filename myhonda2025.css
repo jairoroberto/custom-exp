@@ -317,9 +317,17 @@ button.slds-button.slds-button_brand:hover {
   font-weight: bold;
 }
 
-.c-action-subheader button .slds-button__icon {
+/* COMPACT LAYOUT */
+.secondaryFields .c-action-subheader button .slds-button__icon {
   position: relative;
   top: -1px;
+}
+
+.slds-page-header__detail-block {
+  --lwc-spacingXLarge: 0px !important;
+  padding-right: var(--lwc-spacingXLarge, 0rem);
+  padding-left: var(--lwc-spacingXLarge, 0rem);
+  max-width: 25%;
 }
 
 /* ícone cad opp */
