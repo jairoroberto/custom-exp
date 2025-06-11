@@ -75,7 +75,13 @@ button[type="button"]:contains("Clonar") {
   --lwc-spacingXLarge: 0px !important;
   padding-right: var(--lwc-spacingXLarge, 0rem);
   padding-left: var(--lwc-spacingXLarge, 0rem);
-  max-width: 25%;
+}
+
+.forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
+  text-transform: uppercase;
+  /* min-width: 110px; */
+  font-size: 9px;
+  -webkit-font-smoothing: antialiased;
 }
 
 .slds-tabs_default.js-tabset.forceCommunityTabLayout {
@@ -85,13 +91,6 @@ button[type="button"]:contains("Clonar") {
 }
 .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
   width: 100%;
-}
-
-.forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
-  text-transform: uppercase;
-  min-width: 110px;
-  font-size: 0.75rem;
-  -webkit-font-smoothing: antialiased;
 }
 
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
