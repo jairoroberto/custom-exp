@@ -75,7 +75,7 @@ button[type="button"]:contains("Clonar") {
   --lwc-spacingXLarge: 30px !important;
   padding-right: var(--lwc-spacingXLarge, 0rem);
   padding-left: var(--lwc-spacingXLarge, 0rem);
-  max-width: 320px !important;
+  max-width: 200px !important;
   /* width: calc(16.33332% - 20px); */
 }
 
