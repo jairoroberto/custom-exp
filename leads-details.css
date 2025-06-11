@@ -70,7 +70,7 @@ button[type="button"]:contains("Clonar") {
   border-top: 1px dashed #dddddd;
   top: -1px;
 }
-
+/* Reduzindo paddind dos campos do Compact Layout */
 .slds-page-header__detail-block {
   --lwc-spacingXLarge: 0px !important;
   padding-right: var(--lwc-spacingXLarge, 0rem);
