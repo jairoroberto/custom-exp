@@ -72,9 +72,11 @@ button[type="button"]:contains("Clonar") {
 }
 /* Reduzindo paddind dos campos do Compact Layout */
 .slds-page-header__detail-block {
-  --lwc-spacingXLarge: 10px !important;
+  --lwc-spacingXLarge: 0px !important;
   padding-right: var(--lwc-spacingXLarge, 0rem);
   padding-left: var(--lwc-spacingXLarge, 0rem);
+  max-width: 230px !important;
+  width: 16.33332%;
 }
 
 .forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
