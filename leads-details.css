@@ -72,7 +72,7 @@ button[type="button"]:contains("Clonar") {
 }
 /* Reduzindo paddind dos campos do Compact Layout */
 .slds-page-header__detail-block {
-  --lwc-spacingXLarge: 0px !important;
+  --lwc-spacingXLarge: 10px !important;
   padding-right: var(--lwc-spacingXLarge, 0rem);
   padding-left: var(--lwc-spacingXLarge, 0rem);
 }
