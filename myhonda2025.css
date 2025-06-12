@@ -246,9 +246,11 @@ div[data-region-name="header"] {
 }
 
 .search-container .search-field-wrapper {
-  border: 1px solid #ddd;
+  border: 1px solid #ccc;
   overflow: hidden;
   border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  background: #f9f9f9;
 }
 
 .forceCommunitySearchBox .search-button {
