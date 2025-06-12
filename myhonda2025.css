@@ -105,6 +105,13 @@ html.slds-no-wcag body {
 body .forceCommunitySearchBox .search-button {
   border-radius: 0 4px 4px 0px;
 }
+
+@media only screen and (min-width: 48em) {
+  body .siteforceServiceBody .cBrandingProfile {
+    width: 20%;
+  }
+}
+
 .forceCommunitySearchBox .search-field {
   --lwc-fcFontSizeMedium: 1rem;
   font-size: var(--lwc-fcFontSizeMedium, 0.8125rem);
