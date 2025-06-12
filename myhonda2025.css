@@ -245,7 +245,7 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 
-.search-container .search-field-wrapper {
+body .search-container .search-field-wrapper {
   border: 1px solid #ccc;
   overflow: hidden;
   border-radius: 4px;
