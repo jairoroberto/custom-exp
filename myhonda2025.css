@@ -501,23 +501,11 @@ button.slds-button.slds-button_brand:hover {
     transition: all 0.2s ease-out;
     padding-left: 10px;
   }
-}
 
-/* .item .slds-icon-utility-chevronright .slds-icon-text-default {
-  transition: all 0.2s ease-in;
-  &:hover {
-    transition: all 0.2s ease-out;
-    --lwc-colorTextIconDefault: #cc0000 !important;
-
-    & .slds-icon-utility-chevronright {
-      padding-left: 10px;
-    }
+  & .badge {
+    background: #f9f9f9;
   }
-} */
-/* .item:hover .slds-icon-utility-chevronright .slds-icon-text-default {
-  --lwc-colorTextIconDefault: #cc0000 !important;
-  fill: #cc0000 !important;
-} */
+}
 
 /* CSS Global Edson */
 /**
