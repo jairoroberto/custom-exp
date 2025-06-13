@@ -521,7 +521,12 @@ button.slds-button.slds-button_brand:hover {
   white-space: wrap;
 }
 
-/* FIM MyH2_HomeEventManager */
+.slds-form-element__help.slds-assistive-text {
+  position: relative;
+  left: 100px;
+}
+
+/* ----- FIM MyH2_HomeEventManager */
 
 /* CSS Global Edson */
 /**
