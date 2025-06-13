@@ -515,11 +515,11 @@ button.slds-button.slds-button_brand:hover {
   overflow: hidden;
   white-space: nowrap;
 }
-.item:nth-child(1):hover {
+/* .item:nth-child(1):hover {
   text-overflow: initial;
   overflow: initial;
   white-space: wrap;
-}
+} */
 
 .custom-date .slds-form-element__help {
   display: none;
