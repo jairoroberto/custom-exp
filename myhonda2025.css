@@ -481,6 +481,9 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
+.item {
+  transition: all 0.2s ease;
+}
 .item:hover .slds-icon-utility-chevronright {
   padding-left: 10px;
   transition: all 0.2s ease;
