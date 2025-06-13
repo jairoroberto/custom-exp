@@ -521,9 +521,12 @@ button.slds-button.slds-button_brand:hover {
   white-space: wrap;
 }
 
-.slds-form-element__help.slds-assistive-text {
-  position: relative;
-  left: 100px;
+.custom-date .slds-form-element__help {
+  display: none;
+}
+
+.custom-date .slds-form-element__help.slds-assistive-text {
+  display: none !important;
 }
 
 /* ----- FIM MyH2_HomeEventManager */
