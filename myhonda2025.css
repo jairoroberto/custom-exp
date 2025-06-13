@@ -245,6 +245,7 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 
+/* Change Visual Search Header 01 */
 body .search-container .search-field-wrapper {
   border: 1px solid #ccc;
   overflow: hidden;
@@ -449,6 +450,34 @@ button.slds-button.slds-button_brand:hover {
 }
 
 /* FIM LIST VIEW CHANGES */
+
+/* MUDANDO APARENCIA DO COMPONENTE PADRÃO DE NOTIFICAÇÕES */
+.unsNotificationsVirtualList li.notification-row.notification-unread.unsNotificationsListRow {
+  position: relative;
+  background: #fffde7; /* fffeee */
+  &:hover {
+    background: #fff;
+  }
+}
+
+.unsNotificationsVirtualList li.notification-row.notification-unread.unsNotificationsListRow:after {
+  content: "";
+  background: #cc0000;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 10px;
+  right: 10px;
+  border-radius: 50px;
+}
+
+.unsNotificationsVirtualList li.notification-row.notification-read.unsNotificationsListRow {
+  opacity: 0.6;
+}
+
+.unsNotificationsVirtualList li.notification-row.notification-read.unsNotificationsListRow img.image {
+  filter: grayscale(1);
+}
 
 /* CSS Global Edson */
 /**
