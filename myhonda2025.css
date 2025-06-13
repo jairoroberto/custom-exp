@@ -481,17 +481,29 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
-.item {
+/* .item {
   transition: all 0.2s ease;
 }
 .item:hover .slds-icon-utility-chevronright {
   padding-left: 10px;
   transition: all 0.2s ease;
+} */
+
+.item .slds-icon-utility-chevronright .slds-icon-text-default {
+  transition: all 0.2s ease-in;
+  &:hover {
+    transition: all 0.2s ease-out;
+    --lwc-colorTextIconDefault: #cc0000 !important;
+
+    & .slds-icon-utility-chevronright {
+      padding-left: 10px;
+    }
+  }
 }
-.item:hover .slds-icon-utility-chevronright .slds-icon-text-default {
+/* .item:hover .slds-icon-utility-chevronright .slds-icon-text-default {
   --lwc-colorTextIconDefault: #cc0000 !important;
   fill: #cc0000 !important;
-}
+} */
 
 /* CSS Global Edson */
 /**
