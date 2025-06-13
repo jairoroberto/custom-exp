@@ -481,6 +481,9 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
+.item:hover {
+  padding-left: 10px;
+}
 .item:hover .slds-icon-utility-chevronright .slds-icon-text-default {
   --lwc-colorTextIconDefault: #cc0000 !important;
   fill: #cc0000 !important;
