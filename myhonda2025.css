@@ -493,6 +493,10 @@ button.slds-button.slds-button_brand:hover {
   & .item .slds-icon-utility-chevronright {
     transition: all 0.2s ease-in;
   }
+  & .badge {
+    padded: 0.2rem;
+    border: 1px dashed #ddd;
+  }
 }
 
 .card .container:hover {
