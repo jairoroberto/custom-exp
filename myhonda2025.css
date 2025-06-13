@@ -479,6 +479,13 @@ button.slds-button.slds-button_brand:hover {
   filter: grayscale(1);
 }
 
+/* MyH2_HomeEventManager */
+
+.item:hover .slds-icon-utility-chevronright .slds-icon-text-default {
+  --lwc-colorTextIconDefault: #cc0000 !important;
+  fill: #cc0000 !important;
+}
+
 /* CSS Global Edson */
 /**
  * myHonda 2.0
