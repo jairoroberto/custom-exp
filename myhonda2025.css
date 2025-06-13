@@ -481,14 +481,6 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
-/* .item {
-  transition: all 0.2s ease;
-}
-.item:hover .slds-icon-utility-chevronright {
-  padding-left: 10px;
-  transition: all 0.2s ease;
-} */
-
 .card .container {
   & .item .slds-icon-utility-chevronright {
     transition: all 0.2s ease-in;
@@ -510,6 +502,26 @@ button.slds-button.slds-button_brand:hover {
     background: #f9f9f9;
   }
 }
+
+.item:nth-child(1) {
+  font-weight: bold;
+  grid-column: 1/4;
+  grid-row: 1;
+  padding-left: 10px;
+  align-content: end;
+  text-overflow: ellipsis;
+  max-width: 350px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.item:nth-child(1):hover {
+  text-overflow: 
+  max-width: 350px;
+  overflow: initial;
+  white-space: wrap;
+}
+
+/* FIM MyH2_HomeEventManager */
 
 /* CSS Global Edson */
 /**
