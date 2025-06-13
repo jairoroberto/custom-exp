@@ -500,6 +500,12 @@ button.slds-button.slds-button_brand:hover {
 
   & .badge {
     background: #f9f9f9;
+    transition: all 0.2s ease-out;
+  }
+
+  & .box-header {
+    color: #cc0000;
+    transition: all 0.2s ease-out;
   }
 }
 
