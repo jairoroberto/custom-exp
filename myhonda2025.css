@@ -504,19 +504,13 @@ button.slds-button.slds-button_brand:hover {
 }
 
 .item:nth-child(1) {
-  font-weight: bold;
-  grid-column: 1/4;
-  grid-row: 1;
-  padding-left: 10px;
-  align-content: end;
   text-overflow: ellipsis;
   max-width: 350px;
   overflow: hidden;
   white-space: nowrap;
 }
 .item:nth-child(1):hover {
-  text-overflow: 
-  max-width: 350px;
+  text-overflow: initial;
   overflow: initial;
   white-space: wrap;
 }
