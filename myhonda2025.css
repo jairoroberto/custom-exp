@@ -481,7 +481,7 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
-.card .container {
+/* .card .container {
   & .item .slds-icon-utility-chevronright {
     transition: all 0.2s ease-in;
   }
@@ -507,14 +507,14 @@ button.slds-button.slds-button_brand:hover {
     color: #cc0000;
     transition: all 0.2s ease-out;
   }
-}
+} */
 
-.item:nth-child(1) {
+/* .item:nth-child(1) {
   text-overflow: ellipsis;
   max-width: 350px;
   overflow: hidden;
   white-space: nowrap;
-}
+} */
 /* .item:nth-child(1):hover {
   text-overflow: initial;
   overflow: initial;
