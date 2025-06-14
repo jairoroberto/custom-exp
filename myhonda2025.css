@@ -481,12 +481,12 @@ button.slds-button.slds-button_brand:hover {
 
 /* MyH2_HomeEventManager */
 
-.item.box-header {
+/* .item.box-header {
   text-overflow: ellipsis;
   max-width: 350px;
   overflow: hidden;
   white-space: nowrap;
-}
+} */
 
 /* .card .container {
   & .item .slds-icon-utility-chevronright {
@@ -545,11 +545,11 @@ button.slds-button.slds-button_brand:hover {
  */
 /*@import url('/resource/myH2_Community_Style?v1');*/
 
-/* :host {
+:host {
   --lwc-colorBorder: #dddddd !important;
   --lwc-progressColorBorderActive: #cc0000 !important;
   --slds-c-modal-footer-color-background: #f2f2f2 !important;
-} */
+}
 
 /* tira o fundo branco das páginas */
 .siteforceServiceBody .siteforceContentArea {
