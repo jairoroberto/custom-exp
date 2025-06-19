@@ -323,6 +323,14 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 
 /* Update Buttons Home "Entrar em Contato" 4 */
 
+.lead-action lightning-helptext {
+  display: none;
+}
+
+.lead-action :has(.disabled) lightning-helptext {
+  display: block;
+}
+
 .lead-actions button.slds-button_neutral {
   font-size: 0.75rem;
   color: var(--color-surface-nav);
@@ -336,24 +344,12 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   }
 }
 
-lightning-helptext {
-  display: none;
-}
-
 /* Disabled */
 .lead-actions .disabled button.slds-button_neutral {
   background-color: var(--color-gray-100);
   color: var(--color-gray-300);
   border: none;
   cursor: not-allowed;
-
-  & lightning-primitive-icon {
-    display: none;
-  }
-
-  & + lightning-helptext {
-    display: block;
-  }
 }
 
 /* LWC Subheader Actions Home - Force CSS */
