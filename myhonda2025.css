@@ -335,7 +335,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   left: 6px;
 }
 
-.lead-actions:has(.disabled) .lead-item:hover {
+.lead-actions .lead-item:hover:has(.disabled) {
   background: transparent !important;
 }
 
