@@ -327,7 +327,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   display: none;
 }
 .lead-actions:has(.disabled) .tooltip-custom {
-  background: #ffcc20;
+  display: block;
 }
 
 .lead-actions button.slds-button_neutral {
