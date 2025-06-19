@@ -353,6 +353,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   color: var(--color-gray-300);
   border: none;
   cursor: not-allowed;
+
+  & lightning-primitive-icon {
+    display: none;
+  }
 }
 
 /* LWC Subheader Actions Home - Force CSS */
