@@ -327,7 +327,11 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   display: none;
 }
 
-.lead-action :has(.disabled) lightning-helptext {
+.lead-action :has(lightning-button.disabled) lightning-helptext {
+  display: block;
+}
+
+.lead-action:has(lightning-button.disabled) lightning-helptext {
   display: block;
 }
 
