@@ -315,17 +315,19 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   background: #8d0000 !important;
 }
 
-.lead-actions button.slds-button_brand {
+/* Update Buttons Home "Entrar em Contato" 1 */
+
+.lead-actions button.slds-button_neutral {
   font-size: 0.75rem;
 }
 
-.lead-actions .disabled button.slds-button_brand {
+.lead-actions .disabled button.slds-button_neutral {
   background-color: #dddddd;
   color: #bbb4b4;
   border: none;
 }
 
-button.slds-button.slds-button_brand:hover {
+button.slds-button.slds-button_neutral:hover {
   background: #35363b;
   transition: all 0.2s ease;
 }
