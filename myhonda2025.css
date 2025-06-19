@@ -344,6 +344,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   color: var(--color-surface-nav);
   transition: all 0.2s ease;
   min-width: 170px;
+  min-height: 36px;
 
   &:hover {
     color: var(--color-brand);
