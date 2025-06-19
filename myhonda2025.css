@@ -37,9 +37,15 @@
   --color-base-white: #ffffff;
   --color-blue-blue-100: #b7f2ff;
   --color-blue-blue-700: #0b5cab;
+
   --color-gray-gray-100: #f2f2f2;
+  --color-gray-100: #f2f2f2;
+
   --color-gray-gray-200: #dddddd;
+
   --color-gray-gray-300: #cacbcc;
+  --color-gray-300: #cacbcc;
+
   --color-gray-gray-400: #8d8d8d;
   --color-gray-gray-50: #f9f9f9;
   --color-gray-gray-500: #555555;
@@ -315,15 +321,15 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   background: #8d0000 !important;
 }
 
-/* Update Buttons Home "Entrar em Contato" 1 */
+/* Update Buttons Home "Entrar em Contato" 2 */
 
 .lead-actions button.slds-button_neutral {
   font-size: 0.75rem;
 }
 
 .lead-actions .disabled button.slds-button_neutral {
-  background-color: #dddddd;
-  color: #bbb4b4;
+  background-color: var(--color-gray-100);
+  color: var(--color-gray-300);
   border: none;
 }
 
