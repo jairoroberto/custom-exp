@@ -386,6 +386,11 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   fill: #0b5cab;
 }
 
+.slds-modal button.slds-button.slds-button_brand {
+  color: #fff;
+  border: 1px solid transparent;
+}
+
 /* mudança da posição do icon date picker */
 
 .campo-date .slds-input-has-icon .slds-input__icon {
