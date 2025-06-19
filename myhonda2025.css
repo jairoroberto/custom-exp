@@ -742,10 +742,6 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
 }
 
 .slds-modal__content {
-  &.slds-p-around_medium {
-    /* padding: 2rem 1rem !important; */
-  }
-
   & .title-step {
     color: #cc0000;
     font-size: 20px;
