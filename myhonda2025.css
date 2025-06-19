@@ -322,12 +322,15 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 /* Update Buttons Home "Entrar em Contato" 4 */
-
+.lead-actions {
+  position: relative;
+}
 .lead-actions .tooltip-custom {
   display: none;
 }
 .lead-actions:has(.disabled) .tooltip-custom {
   display: block;
+  position: absolute;
 }
 
 .lead-actions button.slds-button_neutral {
