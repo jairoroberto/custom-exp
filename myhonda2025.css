@@ -335,6 +335,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   left: 6px;
 }
 
+.lead-actions:has(.disabled) .lead-item:hover {
+  background: transparent !important;
+}
+
 .lead-actions button.slds-button_neutral {
   font-size: 0.75rem;
   color: var(--color-surface-nav);
