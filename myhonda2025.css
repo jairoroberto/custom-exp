@@ -328,6 +328,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   color: var(--color-surface-nav);
   transition: all 0.2s ease;
 
+  & + lightning-helptext {
+    display: block;
+  }
+
   &:hover {
     color: var(--color-brand);
     cursor: cursor;
@@ -345,6 +349,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 
   & lightning-primitive-icon {
     display: none;
+  }
+
+  & + lightning-helptext {
+    display: block;
   }
 }
 
