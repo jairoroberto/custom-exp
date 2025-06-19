@@ -321,21 +321,26 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   background: #8d0000 !important;
 }
 
-/* Update Buttons Home "Entrar em Contato" 2 */
+/* Update Buttons Home "Entrar em Contato" 3 */
 
 .lead-actions button.slds-button_neutral {
   font-size: 0.75rem;
+  color: var(--color-surface-nav);
+  transition: all 0.2s ease;
+
+  &:hover {
+    color: var(--color-brand);
+    cursor: cursor;
+    transition: all 0.2s ease;
+  }
 }
 
+/* Disabled */
 .lead-actions .disabled button.slds-button_neutral {
   background-color: var(--color-gray-100);
   color: var(--color-gray-300);
   border: none;
-}
-
-button.slds-button.slds-button_neutral:hover {
-  background: #35363b;
-  transition: all 0.2s ease;
+  cursor: not-allowed;
 }
 
 /* LWC Subheader Actions Home - Force CSS */
@@ -429,7 +434,8 @@ button.slds-button.slds-button_neutral:hover {
   height: auto !important;
 }
 
-.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
+.test-listViewManager
+  .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
   background: #f2f2f2;
   padding: 0.75rem;
   border-bottom: 3px solid #ccc;
