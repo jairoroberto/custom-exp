@@ -331,6 +331,8 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 .lead-actions:has(.disabled) .tooltip-custom {
   display: block;
   position: absolute;
+  top: 16px;
+  left: 6px;
 }
 
 .lead-actions button.slds-button_neutral {
@@ -353,6 +355,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   color: var(--color-gray-300);
   border: none;
   cursor: not-allowed;
+  padding-left: 22px;
 
   & lightning-primitive-icon {
     display: none;
