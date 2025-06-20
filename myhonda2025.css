@@ -398,9 +398,15 @@ nav.slds-has-flexi-truncate ul li > button:hover {
     position: relative;
   }
 
+  /* remover e jogar no LWC */
   & .slds-modal__content {
     --lwc-spacingMedium: 1rem !important;
   }
+
+  .slds-modal__header h1 {
+    padding: 0.5rem;
+  }
+  /* fim remover e jogar no LWC */
 }
 
 /* mudança da posição do icon date picker */
