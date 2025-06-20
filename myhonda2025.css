@@ -805,5 +805,5 @@ section.leads-container {
 .leads-footer[lwc-46p1v9e6t9e] {
   position: absolute !important;
   width: 100%;
-  top: calc(100% - 42px);
+  top: calc(100% - 42px) !important;
 }
