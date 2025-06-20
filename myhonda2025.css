@@ -348,6 +348,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 
   &:hover {
     color: var(--color-brand);
+    border: 1px solid var(--color-brand);
     cursor: cursor;
     transition: all 0.2s ease;
     background: var(--color-base-white);
