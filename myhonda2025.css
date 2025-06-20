@@ -794,3 +794,16 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
   border: 1px solid #ddd !important;
   color: #666;
 }
+
+/* Ajuste altura de listagem de Novos Leads - colocar depois no LWC */
+
+section.leads-container {
+  min-height: var(--height-event-home);
+  position: relative;
+}
+
+.leads-footer[lwc-46p1v9e6t9e] {
+  position: absolute;
+  width: 100%;
+  bottom: calc(100% - 42px);
+}
