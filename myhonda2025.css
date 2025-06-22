@@ -817,3 +817,8 @@ section.leads-container {
   width: 100%;
   top: calc(100% - 42px) !important;
 }
+
+c-my-h2_-home-opportunity-manager .title,
+c-my-h2_-home-event-manager .title {
+  color: var(--color-dark);
+}
