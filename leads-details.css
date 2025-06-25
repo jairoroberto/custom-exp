@@ -124,11 +124,3 @@ h3.test-id__section-header-container.slds-section__title button {
   font-size: 0.9rem;
   padding: 0.2rem 0.6rem;
 }
-
-/* Removendo Actions dentro do Header do List View */
-.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
-  display: none !important;
-}
-.branding-actions {
-  display: none !important;
-}
