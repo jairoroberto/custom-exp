@@ -83,3 +83,8 @@ h3.test-id__section-header-container.slds-section__title button {
   font-size: 0.9rem;
   padding: 0.2rem 0.6rem;
 }
+
+/* Removendo Actions dentro do Header do List View */
+.slds-page-header_object-home .branding-actions {
+  display: none;
+}
