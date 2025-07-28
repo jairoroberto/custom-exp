@@ -126,6 +126,6 @@ h3.test-id__section-header-container.slds-section__title button {
 }
 
 /* Hide backdrop overlat opacity nth-child(2) */
-.slds-backdrop.slds-backdrop_open:nth-child(2) {
+.slds-backdrop.slds-backdrop_open:nth-child(1) {
   display: none;
 }
