@@ -472,9 +472,13 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 .test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img {
-  max-width: 110px !important;
+  max-width: 110px;
   height: auto !important;
   width: 100%;
+}
+
+.test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img[src*="chat-vermelho.png"] {
+  max-width: 80px !important;
 }
 
 .test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img[src*="icon-whats.png"] {
