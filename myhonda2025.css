@@ -472,8 +472,9 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 .test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img {
-  width: 110px !important;
+  max-width: 110px !important;
   height: auto !important;
+  width: 100%;
 }
 
 .test-listViewManager .slds-table--bordered span[data-aura-class="forceOutputFormulaHtml"] img[src*="icon-whats.png"] {
@@ -481,17 +482,14 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   height: auto !important;
 }
 
-.test-listViewManager
-  .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
+.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader {
   background: #f2f2f2;
   padding: 0.75rem;
   border-bottom: 3px solid #ccc;
 }
 
 /* Removendo Actions dentro do Header do List View */
-.test-listViewManager
-  .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader
-  .branding-actions {
+.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
   display: none !important;
 }
 
