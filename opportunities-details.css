@@ -95,6 +95,10 @@ records-record-layout-item:is([field-label="Nome da oportunidade"], [field-label
   display: none;
 }
 
-slot.slds-grid:has(records-record-layout-item[field-label="Nome da oportunidade"]) {
+records-record-layout-block slot records-record-layout-section:first-child {
   display: none;
 }
+
+/* slot.slds-grid:has(records-record-layout-item[field-label="Nome da oportunidade"]) {
+  display: none;
+} */
