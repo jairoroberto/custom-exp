@@ -85,8 +85,12 @@ h3.test-id__section-header-container.slds-section__title button {
 }
 
 /* Esconder campos na Experience Cloud Nome da oportunidade,  */
-records-record-layout-item[field-label="Nome da oportunidade"],
+/* records-record-layout-item[field-label="Nome da oportunidade"],
 records-record-layout-item[field-label="Probabilidade (%)"],
 records-record-layout-item[field-label="Data de fechamento"] {
+  display: none;
+} */
+
+records-record-layout-item:is([field-label="Nome da oportunidade"], [field-label="Probabilidade (%)"], [field-label="Data de fechamento"]) {
   display: none;
 }
