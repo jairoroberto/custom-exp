@@ -132,6 +132,19 @@ records-record-layout-item[field-label="Status"] .slds-form-element__control but
 
 records-record-layout-item[field-label="Status"] {
   background: #ffcc30;
+  position: relative;
+}
+
+records-record-layout-item[field-label="Status"]:after {
+  background: rgba(70, 7, 195, 0.5);
+  content: "";
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin-top: -4px;
+  border-radius: 4px 4px 0 0;
+  z-index: 1;
+  position: absolute;
 }
 
 /* Hide backdrop overlat opacity nth-child(2) */
