@@ -84,7 +84,9 @@ h3.test-id__section-header-container.slds-section__title button {
   padding: 0.2rem 0.6rem;
 }
 
-/* Esconder campos na Experience Cloud */
-records-record-layout-item[field-label="Nome da oportunidade"] {
-  background: #ffcc20;
+/* Esconder campos na Experience Cloud Nome da oportunidade,  */
+records-record-layout-item[field-label="Nome da oportunidade"],
+records-record-layout-item[field-label="Probabilidade (%)"],
+records-record-layout-item[field-label="Data de fechamento"] {
+  display: none;
 }
