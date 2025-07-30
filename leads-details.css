@@ -130,6 +130,10 @@ records-record-layout-item[field-label="Status"] .slds-form-element__control but
   display: none;
 }
 
+records-record-layout-item[field-label="Status"] {
+  background: #ffcc30;
+}
+
 /* Hide backdrop overlat opacity nth-child(2) */
 /* .slds-backdrop.slds-backdrop_open:nth-child(2) {
   display: none;
