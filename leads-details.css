@@ -131,7 +131,7 @@ records-record-layout-item[field-label="Status"] .slds-form-element__control but
 }
 
 records-record-layout-item[field-label="Status"] {
-  background: #ffcc30;
+  /* background: #ffcc30; */
   position: relative;
 }
 
