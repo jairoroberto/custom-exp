@@ -125,17 +125,19 @@ h3.test-id__section-header-container.slds-section__title button {
   padding: 0.2rem 0.6rem;
 }
 
-/* Remover o ícon button de editar do campo em Leads */
+/* Remover o Ícon + button de editar do campo em Leads com Pseu-Elemento Sobrepondo o click */
 records-record-layout-item[field-label="Status"] .slds-form-element__control button {
   display: none;
 }
 
-records-record-layout-item[field-label="Status"] {
+records-record-layout-item[field-label="Status"],
+records-record-layout-item[field-label="Proprietário"] {
   /* background: #ffcc30; */
   position: relative;
 }
 
-records-record-layout-item[field-label="Status"]:after {
+records-record-layout-item[field-label="Status"]:after,
+records-record-layout-item[field-label="Proprietário"]:after {
   background: rgb(70 7 195 / 0%);
   content: "";
   display: block;
