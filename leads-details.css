@@ -126,7 +126,7 @@ h3.test-id__section-header-container.slds-section__title button {
 }
 
 /* Remover o ícon button de editar do campo em Leads */
-records-record-layout-item[field-label="status"] .slds-form-element__control button {
+records-record-layout-item[field-label="Status"] .slds-form-element__control button {
   display: none;
 }
 
