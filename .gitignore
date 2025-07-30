@@ -8,7 +8,9 @@ Thumbs.db
 node_modules/
 vendor/
 
-*.allai
+/.allai
+*allai
+workspace.db
 
 # Arquivos de log
 *.log
