@@ -91,7 +91,7 @@ records-record-layout-item[field-label="Data de fechamento"] {
   display: none;
 } */
 
-records-record-layout-item:is([field-label="Nome da oportunidade"], [field-label="Probabilidade (%)"], [field-label="Data de fechamento"]) {
+records-record-layout-item:is([field-label="Nome da oportunidade"], [field-label="Probabilidade (%)"], [field-label="Nome da conta"]) {
   display: none;
 }
 
