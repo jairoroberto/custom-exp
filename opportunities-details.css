@@ -102,3 +102,30 @@ records-record-layout-block slot records-record-layout-section:first-child {
 /* slot.slds-grid:has(records-record-layout-item[field-label="Nome da oportunidade"]) {
   display: none;
 } */
+
+/* Remover o Ícon + button de editar do campo em Opps com Pseu-Elemento Sobrepondo o click */
+records-record-layout-item[field-label="Status"] .slds-form-element__control button,
+records-record-layout-item[field-label="Proprietário"] .slds-form-element__control button {
+  display: none;
+}
+
+records-record-layout-item[field-label="Status"],
+records-record-layout-item[field-label="Proprietário"] {
+  /* background: #ffcc30; */
+  position: relative;
+}
+
+records-record-layout-item[field-label="Status"]:after,
+records-record-layout-item[field-label="Proprietário"]:after {
+  background: rgb(70 7 195 / 0%);
+  content: "";
+  display: block;
+  width: 100%;
+  height: 46px;
+  margin-top: 0;
+  border-radius: 4px 4px 0 0;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
