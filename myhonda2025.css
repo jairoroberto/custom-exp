@@ -271,7 +271,9 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 /* Mudança na cor da borda do ícone do profile no Header apenas para Gestor */
-
+body:has(div[aria-label="teste"]) {
+  background-color: lightblue;
+}
 a[aria-label="MyH2_Gestor"]:after {
   content: "Gestor";
   background: #d9d8d8;
