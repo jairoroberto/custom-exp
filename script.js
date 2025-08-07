@@ -1,4 +1,4 @@
-console.log('External Script JS');
+console.log('--- Test External Script JS by Jairo');
 
 const updateLink = document.querySelector('.subheader-listview a');
 // reload when click
