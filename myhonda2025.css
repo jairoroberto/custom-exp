@@ -253,6 +253,22 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 /* Mudança na cor da borda do ícone do profile no Header apenas para Gestor */
+a[aria-label="MyH2_Gestor"]:after {
+  content: "Gestor";
+  background: #cc0000;
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  bottom: 40px;
+  left: 30px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+  font-size: 0.6rem;
+  text-transform: uppercase;
+}
 a[aria-label="MyH2_Gestor"] img {
   background: #fff;
   border: 3px solid #cc0000;
