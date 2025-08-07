@@ -12,5 +12,4 @@ updateLink.addEventListener('click', (event) => {
 });
 
 // change text
-updateLink.textContent = 'Update Link';
-});
+
