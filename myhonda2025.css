@@ -276,6 +276,7 @@ div[data-region-name="header"] {
 
 body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button {
   background-color: #7d8081 !important;
+  border-bottom: 2px solid #121212;
 }
 
 a[aria-label="MyH2_Gestor"]:after {
