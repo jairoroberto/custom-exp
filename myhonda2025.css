@@ -274,8 +274,8 @@ div[data-region-name="header"] {
 }
 /* Mudança na cor da borda do ícone do profile no Header apenas para Gestor */
 
-body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child {
-  background-color: lightblue;
+body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button {
+  background-color: #7d8081 !important;
 }
 
 a[aria-label="MyH2_Gestor"]:after {
