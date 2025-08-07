@@ -10,7 +10,9 @@ vendor/
 
 /.allai
 *allai
-workspace.db
+*.db
+/*.db
+/.sfdx
 
 # Arquivos de log
 *.log
