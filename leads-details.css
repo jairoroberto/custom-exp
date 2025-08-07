@@ -99,8 +99,9 @@ button[type="button"]:contains("Clonar") {
   border-radius: 4px;
   padding: 1rem;
 }
+/* deixa a página 100% de detelhes do Lead */
 .slds-tabs_default.js-tabset.forceCommunityTabLayout .forceCommunityRecordHomeTabs .recordHomePrimaryContent {
-  width: 100%;
+  /* width: 100%; */
 }
 
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
