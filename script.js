@@ -8,4 +8,9 @@ updateLink.addEventListener('click', (event) => {
   event.preventDefault();
   // do something
   window.location.href = updateLink.href;
+  console.log('clicked update link');
+});
+
+// change text
+updateLink.textContent = 'Update Link';
 });
