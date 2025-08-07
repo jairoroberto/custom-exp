@@ -253,6 +253,18 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 
+div[data-region-name="header"] a[aria-label="MyH2_Gestor"] img {
+  background: #fff;
+  border: 3px solid #cc0000;
+}
+
+div[data-region-name="header"] {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  margin: 1rem 0;
+}
+
 /* Change Visual Search Header 01 */
 body .search-container .search-field-wrapper {
   border: 1px solid #ccc;
