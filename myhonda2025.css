@@ -275,8 +275,20 @@ div[data-region-name="header"] {
 /* Mudança na cor da borda do ícone do profile no Header apenas para Gestor */
 
 body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button {
-  background-color: #7d8081 !important;
-  border-bottom: 2px solid #121212;
+  /* background-color: #7d8081 !important;
+  border-bottom: 2px solid #121212; */
+  position: relative;
+}
+
+body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button:after {
+  content: "";
+  background: #ddd;
+  border-radius: 30px;
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  top: 5px;
+  left: 8px;
 }
 
 a[aria-label="MyH2_Gestor"]:after {
