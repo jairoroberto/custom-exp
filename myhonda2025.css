@@ -282,13 +282,13 @@ body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-ch
 
 body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button:after {
   content: "";
-  background: #ddd;
-  border-radius: 30px;
-  width: 6px;
-  height: 6px;
+  background: #f2f2f2;
+  width: 16px;
+  height: 16px;
   position: absolute;
-  top: 5px;
-  left: 8px;
+  top: 41px;
+  right: 50%;
+  rotate: 45deg;
 }
 
 a[aria-label="MyH2_Gestor"]:after {
