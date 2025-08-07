@@ -271,22 +271,25 @@ div[data-region-name="header"] {
   margin: 1rem 0;
 }
 /* Mudança na cor da borda do ícone do profile no Header apenas para Gestor */
+
 a[aria-label="MyH2_Gestor"]:after {
   content: "Gestor";
-  background: #cc0000;
+  background: #d9d8d8;
   width: 60px;
-  height: 20px;
-  position: absolute;
-  bottom: 40px;
-  left: 30px;
-  color: #fff;
+  height: 22px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: #9e9fa0;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 30px;
+  border-radius: 0px 0px 0px 10px;
   font-size: 0.6rem;
   text-transform: uppercase;
+  line-height: 0;
 }
+
 a[aria-label="MyH2_Gestor"] img {
   background: #fff;
   border: 3px solid #cc0000;
