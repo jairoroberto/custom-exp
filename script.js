@@ -1,6 +1,6 @@
 console.log('--- Test External Script JS by Jairo');
 
-const updateLink = document.querySelector('.subheader-listview a');
+const updateLink = document.querySelector('.subheader-listview p a');
 // reload when click
 // updateLink.href = 'https://example.com/new-link';
 
