@@ -125,17 +125,19 @@ a.cBrandingLogo {
 }
 a.cBrandingLogo:after {
   position: absolute;
-  width: 30px;
-  height: 20px;
+  width: 28px;
+  height: auto;
   content: "2.0";
-  background: #121212;
-  color: #fff;
+  background: #ffcdd2;
+  color: #e57373;
   font-size: 0.65rem;
-  padding: 6px;
   border-radius: 20px;
   display: grid;
   place-content: center;
-  left: 0;
+  right: -20px;
+  top: -6px;
+  font-weight: bold;
+  padding: 1px;
 }
 
 .forceCommunitySearchBox .search-field {
