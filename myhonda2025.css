@@ -119,6 +119,24 @@ body .forceCommunitySearchBox .search-button {
     width: 20%;
   }
 }
+/* acrescentando pill/badge logo */
+a.cBrandingLogo {
+  position: relative;
+}
+a.cBrandingLogo:after {
+  position: absolute;
+  width: 30px;
+  height: 20px;
+  content: "2.0";
+  background: #121212;
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 6px;
+  border-radius: 20px;
+  display: grid;
+  place-content: center;
+  left: 0;
+}
 
 .forceCommunitySearchBox .search-field {
   --lwc-fcFontSizeMedium: 1rem;
