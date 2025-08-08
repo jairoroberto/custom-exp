@@ -125,7 +125,7 @@ button[type="button"]:contains("Clonar") {
   background: transparent !important;
 }
 .cMyHonda_WhatsappChat .conversationChat {
-  background: rgb(205 252 201 / 23%);
+  background: rgb(205 252 201 / 23%) !important;
   border-radius: 4px;
   border: 1px dashed #ddd;
   margin-top: 1rem;
