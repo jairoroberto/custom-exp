@@ -110,8 +110,17 @@ button[type="button"]:contains("Clonar") {
   border: 1px solid #ddd;
   border-radius: 3px;
 }
-
+.cMyHonda_whatsappRecordEdit {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  background: rgb(205 252 201 / 23%);
+}
 .cMyHonda_whatsappRecordEdit .conversationSide {
+  background: transparent !important;
+}
+
+.cMyHonda_WhatsappChatUtils.cMyHonda_WhatsappChat {
   background: transparent !important;
 }
 
