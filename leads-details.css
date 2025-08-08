@@ -145,17 +145,15 @@ button[type="button"]:contains("Clonar") {
   border-bottom: 1px dashed #ddd;
   height: 78px !important;
 }
-
-}
 .cMyHonda_WhatsappChat .lineWhatsIcons {
-    display: flex;
-    margin-left: 0 !important;
-    justify-content: space-between;
+  display: flex;
+  margin-left: 0 !important;
+  justify-content: space-between;
 }
 
 .cMyHonda_WhatsappChat div.borderColorDivisor {
-    height: 2px;
-    display: none !important;
+  height: 2px;
+  display: none !important;
 }
 /* Fim Leads Messenger */
 
