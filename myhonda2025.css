@@ -280,16 +280,16 @@ body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-ch
   position: relative;
 }
 
-body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button:after {
+/* body:has(a[aria-label="MyH2_Gestor"]) .comm-drilldown-navigation__bar li:last-child button:after {
   content: "";
-  background: #f2f2f2;
+  background: ##f9f9f9;
   width: 20px;
   height: 20px;
   position: absolute;
   top: 44px;
   right: 50%;
   rotate: 45deg;
-}
+} */
 
 a[aria-label="MyH2_Gestor"]:after {
   content: "Gestor";
