@@ -114,7 +114,8 @@ button[type="button"]:contains("Clonar") {
   padding: 1rem;
   border: 1px solid #ddd;
   border-radius: 3px;
-  background: rgb(205 252 201 / 23%);
+
+  background: #fff;
 }
 .cMyHonda_whatsappRecordEdit .conversationSide {
   background: transparent !important;
@@ -124,7 +125,7 @@ button[type="button"]:contains("Clonar") {
   background: transparent !important;
 }
 .cMyHonda_WhatsappChat .conversationChat {
-  background: #fff;
+  background: rgb(205 252 201 / 23%);
   border-radius: 4px;
   border: 1px dashed #ddd;
   margin-top: 1rem;
