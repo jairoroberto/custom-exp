@@ -140,6 +140,11 @@ button[type="button"]:contains("Clonar") {
 .cMyHonda_WhatsappChat .inputDiv input {
   min-width: 300px;
 }
+
+.conversationChat .slds-chat-list {
+  border-bottom: 1px dashed #ddd;
+  height: 78px !important;
+}
 /* Fim Leads Messenger */
 
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
