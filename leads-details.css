@@ -129,6 +129,14 @@ button[type="button"]:contains("Clonar") {
   border: 1px solid #ddd;
   margin-top: 1rem;
 }
+.cMyHonda_WhatsappChat div.borderColorDivisor {
+  display: none;
+}
+
+.cMyHonda_WhatsappChat .writeAreaChat div {
+  padding: 1rem 0;
+  align-items: center;
+}
 /* Fim Leads Messenger */
 
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
