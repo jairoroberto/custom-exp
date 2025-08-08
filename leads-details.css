@@ -104,6 +104,19 @@ button[type="button"]:contains("Clonar") {
   width: 100%;
 }
 
+/* Início Leads Messenger */
+.cMyHonda_whatsappRecordEdit {
+  padding: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+.cMyHonda_whatsappRecordEdit .conversationSide {
+  background: transparent !important;
+}
+
+/* Fim Leads Messenger */
+
 .slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing {
   border-bottom: 1px solid #ddd;
 }
