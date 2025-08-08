@@ -151,6 +151,10 @@ button[type="button"]:contains("Clonar") {
   justify-content: space-between;
 }
 
+.cMyHonda_WhatsappChat .whatsIcon {
+  width: 100% !important;
+}
+
 .cMyHonda_WhatsappChat div.borderColorDivisor {
   height: 2px;
   display: none !important;
