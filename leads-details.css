@@ -126,7 +126,7 @@ button[type="button"]:contains("Clonar") {
 .cMyHonda_WhatsappChat .conversationChat {
   background: #fff;
   border-radius: 4px;
-  border: 1px solid #ddd;
+  border: 1px dashed #ddd;
   margin-top: 1rem;
 }
 .cMyHonda_WhatsappChat div.borderColorDivisor {
