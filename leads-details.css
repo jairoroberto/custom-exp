@@ -122,12 +122,16 @@ button[type="button"]:contains("Clonar") {
 
 .cMyHonda_WhatsappChatUtils.cMyHonda_WhatsappChat {
   background: transparent !important;
+  display: flex;
+  flex-direction: row-reverse;
 }
+
 .cMyHonda_WhatsappChat .conversationChat {
   background: rgb(205 252 201 / 23%) !important;
   border-radius: 4px;
   border: 1px dashed #ddd;
   margin-top: 1rem;
+  width: 100%;
 }
 .cMyHonda_WhatsappChat div.borderColorDivisor {
   display: none;
