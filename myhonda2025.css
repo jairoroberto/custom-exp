@@ -570,8 +570,6 @@ body.comm-page-list-006 .test-listViewManager .slds-page-header_object-home.slds
   display: none !important;
 }
 
-}
-
 .test-listViewManager .slds-table_bordered,
 .test-listViewManager .slds-table--bordered {
   border-bottom: 1px dashed #ddd !important;
