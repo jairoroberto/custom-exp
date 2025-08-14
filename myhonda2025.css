@@ -881,7 +881,8 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
 /* Formata o CSS do HTML injetado via Builder para ser um Subheader */
 .static-subheader {
   & h2 {
-    font-size: 1.4rem;
+    font-size: 1.4rem !important;
+    font-weight: normal !important;
   }
 }
 
