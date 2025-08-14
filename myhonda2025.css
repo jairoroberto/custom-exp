@@ -878,6 +878,13 @@ lightning-accordion-section:lastchild .slds-accordion__summary {
   }
 }
 
+/* Formata o CSS do HTML injetado via Builder para ser um Subheader */
+.static-subheader {
+  & h2 {
+    font-size: 1.4rem;
+  }
+}
+
 /* Temporary CSS */
 .subheader-listview p button {
   font-size: 0.7rem !important;
