@@ -560,9 +560,16 @@ nav.slds-has-flexi-truncate ul li > button:hover {
   border-bottom: 3px solid #ccc;
 }
 
-/* Removendo Actions dentro do Header do List View */
+/* Removendo Quick Actions dentro do Header do List View Lead */
 body.comm-page-list-00Q .test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
   display: none !important;
+}
+
+/* Removendo Quick Actions dentro do Header do List View Opportunity */
+body.comm-page-list-006 .test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
+  display: none !important;
+}
+
 }
 
 .test-listViewManager .slds-table_bordered,
