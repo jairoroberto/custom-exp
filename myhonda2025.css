@@ -318,7 +318,7 @@ div[data-region-name="header"] {
   display: flex;
   gap: 1rem;
   justify-content: space-between;
-  margin: 1rem 0;
+  margin: 1rem 0 0rem 0;
 }
 
 /* Change Visual Search Header 01 */
@@ -512,7 +512,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 
 /* .subheader-listview {
   margin: 0;
-}
+}∂
 .subheader-listview h2 {
   font-size: 1.4rem !important;
 }
