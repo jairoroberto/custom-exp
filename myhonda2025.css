@@ -561,7 +561,7 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 /* Removendo Actions dentro do Header do List View */
-.test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
+body:has(.subheader-listview) .test-listViewManager .slds-page-header_object-home.slds-page-header--object-home.slds-page-header_joined.slds-page-header_bleed.slds-page-header.slds-shrink-none.test-headerRegion.forceListViewManagerHeader .branding-actions {
   display: none !important;
 }
 
