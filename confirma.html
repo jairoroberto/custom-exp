@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Honda - Contato</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f2f2f2 0%, #fff 100%);
+      min-height: 100vh;
+      padding: 20px;
+    }
+
+    .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .form-header {
+      background: linear-gradient(135deg, #cc0000 0%, #820101 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .form-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    form {
+      padding: 40px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      letter-spacing: 0.025em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      padding: 15px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      background: white;
+      color: #374151;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+      outline: none;
+      border-color: #dc143c;
+      box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.1);
+      transform: translateY(-2px);
+    }
+
+    input[type="text"]:hover,
+    input[type="email"]:hover,
+    select:hover {
+      border-color: #d1d5db;
+      transform: translateY(-1px);
+    }
+
+    select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+      background-size: 12px;
+    }
+
+    .submit-container {
+      grid-column: 1 / -1;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    input[type="submit"] {
+      background: linear-gradient(135deg, #dc143c 0%, #b91c1c 100%);
+      color: white;
+      padding: 18px 40px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 10px 20px rgba(220, 20, 60, 0.3);
+    }
+
+    input[type="submit"]:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(220, 20, 60, 0.4);
+    }
+
+    input[type="submit"]:active {
+      transform: translateY(-1px);
+    }
+
+    /* Campos hidden permanecem ocultos */
+    input[type="hidden"] {
+      display: none;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .form-container {
+        margin: 0;
+        border-radius: 12px;
+      }
+
+      .form-header {
+        padding: 25px 20px;
+      }
+
+      .form-header h1 {
+        font-size: 2rem;
+      }
+
+      form {
+        padding: 25px 20px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    /* Animações suaves */
+    .form-group {
+      opacity: 0;
+      animation: slideInUp 0.6s ease forwards;
+    }
+
+    .form-group:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .form-group:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .form-group:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .form-group:nth-child(4) {
+      animation-delay: 0.4s;
+    }
+
+    .form-group:nth-child(5) {
+      animation-delay: 0.5s;
+    }
+
+    .form-group:nth-child(6) {
+      animation-delay: 0.6s;
+    }
+
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Indicador de campo obrigatório */
+    label[for*="required"]::after,
+    label:has(+ input[required])::after,
+    label:has(+ select[required])::after {
+      content: " *";
+      color: #dc143c;
+      font-weight: bold;
+    }
+
+    .btn-voltar {
+      margin: 2rem auto;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      width: 150px;
+      background: linear-gradient(135deg, #dc143c 0%, #b91c1c 100%);
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      box-shadow: 0 10px 20px rgba(220, 20, 60, 0.3);
+      transition: all 0.3s ease;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <div class="form-header">
+      <h1>HONDA</h1>
+      <h3>Seus dados foram enviados com sucesso!</h3>
+    </div>
+
+    <div class="">
+      <a href="web-to-lead.html" class="btn-voltar">Voltar</a>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

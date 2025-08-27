@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário Honda - Contato</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Helvetica', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f2f2f2 0%, #fff 100%);
+      min-height: 100vh;
+      padding: 20px;
+      background-image: url('bg-honda-n.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .form-container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .form-header {
+      background: linear-gradient(135deg, #cc0000 0%, #820101 100%);
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    .form-header h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    .form-header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    form {
+      padding: 40px;
+    }
+
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group.full-width {
+      grid-column: 1 / -1;
+    }
+
+    label {
+      font-weight: 600;
+      color: #374151;
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+      letter-spacing: 0.025em;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      padding: 15px;
+      border: 2px solid #e5e7eb;
+      border-radius: 8px;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      background: white;
+      color: #374151;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+      outline: none;
+      border-color: #dc143c;
+      box-shadow: 0 0 0 3px rgba(220, 20, 60, 0.1);
+      transform: translateY(-2px);
+    }
+
+    input[type="text"]:hover,
+    input[type="email"]:hover,
+    select:hover {
+      border-color: #d1d5db;
+      transform: translateY(-1px);
+    }
+
+    select {
+      cursor: pointer;
+      appearance: none;
+      background-image: url('data:image/svg+xml;charset=US-ASCII,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4 5"><path fill="%23666" d="M2 0L0 2h4zm0 5L0 3h4z"/></svg>');
+      background-repeat: no-repeat;
+      background-position: right 15px center;
+      background-size: 12px;
+    }
+
+    .submit-container {
+      grid-column: 1 / -1;
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    input[type="submit"] {
+      background: linear-gradient(135deg, #dc143c 0%, #b91c1c 100%);
+      color: white;
+      padding: 18px 40px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 10px 20px rgba(220, 20, 60, 0.3);
+    }
+
+    input[type="submit"]:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 30px rgba(220, 20, 60, 0.4);
+    }
+
+    input[type="submit"]:active {
+      transform: translateY(-1px);
+    }
+
+    /* Campos hidden permanecem ocultos */
+    input[type="hidden"] {
+      display: none;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      body {
+        padding: 10px;
+      }
+
+      .form-container {
+        margin: 0;
+        border-radius: 12px;
+      }
+
+      .form-header {
+        padding: 25px 20px;
+      }
+
+      .form-header h1 {
+        font-size: 2rem;
+      }
+
+      form {
+        padding: 25px 20px;
+      }
+
+      .form-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+    }
+
+    /* Animações suaves */
+    .form-group {
+      opacity: 0;
+      animation: slideInUp 0.6s ease forwards;
+    }
+
+    .form-group:nth-child(1) {
+      animation-delay: 0.1s;
+    }
+
+    .form-group:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .form-group:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .form-group:nth-child(4) {
+      animation-delay: 0.4s;
+    }
+
+    .form-group:nth-child(5) {
+      animation-delay: 0.5s;
+    }
+
+    .form-group:nth-child(6) {
+      animation-delay: 0.6s;
+    }
+
+    @keyframes slideInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Indicador de campo obrigatório */
+    label[for*="required"]::after,
+    label:has(+ input[required])::after,
+    label:has(+ select[required])::after {
+      content: " *";
+      color: #dc143c;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form-container">
+    <div class="form-header">
+      <h1>HONDA</h1>
+      <p>Entre em contato conosco</p>
+    </div>
+
+    <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DVC000003amcH" method="POST">
+      <input type="hidden" name="oid" value="00DVC000003amcH">
+      <input type="hidden" name="retURL" value="confirma.html">
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="first_name">Primeiro Nome</label>
+          <input id="first_name" maxlength="40" name="first_name" type="text" required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="last_name">Sobrenome</label>
+          <input id="last_name" maxlength="80" name="last_name" type="text" required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" maxlength="80" name="email" type="email" required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="mobile">Celular</label>
+          <input id="mobile" maxlength="40" name="mobile" type="text" required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="00N61000009bHww">Código da Concessionária</label>
+          <input id="00N61000009bHww" maxlength="10" name="00N61000009bHww" type="text" required="true" value="1234567" />
+        </div>
+
+        <div class="form-group">
+          <label for="00N61000009bJAw">CPF</label>
+          <input id="00N61000009bJAw" maxlength="17" name="00N61000009bJAw" type="text" required="true" />
+        </div>
+
+        <div class="form-group">
+          <label for="recordType">Tipo de Registro de Lead</label>
+          <select id="recordType" name="recordType">
+            <option value="01261000000kNre">Dealer</option>
+            <option value="012VC000002OGth">myHonda 2.0</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="00N61000009bJGR">Modelo / Produto / Serviço de Interesse</label>
+          <select id="00N61000009bJGR" name="00N61000009bJGR" title="Modelo / Produto / Serviço de interesse" required="true">
+            <option value="Fit">Fit</option>
+            <option value="WR-V">WR-V</option>
+            <option value="HR-V">HR-V</option>
+            <option value="CR-V">CR-V</option>
+            <option value="City" selected="true">City</option>
+            <option value="Civic">Civic</option>
+            <option value="Accord">Accord</option>
+            <option value="CB Twister">CB Twister</option>
+            <option value="CB 650F">CB 650F</option>
+            <option value="Agendamento de Serviço">Agendamento de Serviço</option>
+            <option value="Produtos de força">Produtos de força</option>
+            <option value="Receber contato">Receber contato</option>
+            <option value="Preços e condições">Preços e condições</option>
+            <option value="Outras solicitaçãoes">Outras solicitações</option>
+            <option value="Seguro Especial Honda">Seguro Especial Honda</option>
+            <option value="Seguro Proteção Financeira">Seguro Proteção Financeira</option>
+            <option value="Seguro Auto Consumidor">Seguro Auto Consumidor</option>
+            <option value="Seguro Moto Consumidor">Seguro Moto Consumidor</option>
+            <option value="Duvidas sobre Financiamento">Dúvidas sobre Financiamento</option>
+            <option value="Peças">Peças</option>
+            <option value="Elite 125">Elite 125</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="00N61000009bJHU">Tipo</label>
+          <select id="00N61000009bJHU" name="00N61000009bJHU" title="Tipo" required="true">
+            <option value="HAB" selected="true">HAB</option>
+            <option value="HDA">HDA</option>
+            <option value="HSF">HSF</option>
+            <option value="PP">PP</option>
+            <option value="CS">CS</option>
+            <option value="CNH">CNH</option>
+            <option value="BHB">BHB</option>
+            <option value="SHB">SHB</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="lead_source">Origem do Lead</label>
+          <select id="lead_source" name="lead_source" required="true">
+            <option value="Honda">Honda</option>
+            <option value="Evento Honda">Evento Honda</option>
+            <option value="WebSite Honda" selected="true">WebSite Honda</option>
+            <option value="Evento Concessionária">Evento Concessionária</option>
+            <option value="WebSite Concessionária">WebSite Concessionária</option>
+            <option value="Journey">Journey</option>
+            <option value="Portal do Proprietário">Portal do Proprietário</option>
+            <option value="SAC Honda">SAC Honda</option>
+            <option value="Passante">Passante</option>
+            <option value="WebSite Dealer">WebSite Dealer</option>
+            <option value="Evento Dealer">Evento Dealer</option>
+            <option value="Interno">Interno</option>
+            <option value="Showroom">Showroom</option>
+            <option value="Fabricante">Fabricante</option>
+            <option value="Totem do Evento">Totem do Evento</option>
+            <option value="Força de vendas">Força de vendas</option>
+            <option value="Showroom Dealer">Showroom Dealer</option>
+            <option value="Honda Social">Honda Social</option>
+            <option value="APP Test-Ride">APP Test-Ride</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="00N61000009bJGC">Sub Origem</label>
+          <select id="00N61000009bJGC" name="00N61000009bJGC" title="Sub origem" required="true">
+            <option value="">-- Nenhum --</option>
+            <option value="Active">Active</option>
+            <option value="App" selected="true">App</option>
+            <option value="Build and Price">Build and Price</option>
+            <option value="Campaigns">Campaigns</option>
+            <option value="Chat">Chat</option>
+            <option value="Direct Sales">Direct Sales</option>
+            <option value="Event">Event</option>
+            <option value="General">General</option>
+            <option value="HotSite">HotSite</option>
+            <option value="Phone">Phone</option>
+            <option value="PreOrder">PreOrder</option>
+            <option value="Prospect">Prospect</option>
+            <option value="Receptive">Receptive</option>
+            <option value="Service">Service</option>
+            <option value="Showroom">Showroom</option>
+            <option value="Site">Site</option>
+            <option value="Site Sales">Site Sales</option>
+            <option value="Social Medias">Social Medias</option>
+            <option value="Test Drive / Test Ride">Test Drive / Test Ride</option>
+            <option value="Canceled Order">Canceled Order</option>
+            <option value="Maintenance">Maintenance</option>
+            <option value="Passante">Passante</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Instagram">Instagram</option>
+            <option value="Bot Whatsapp">Bot Whatsapp</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="OwnerId">Proprietário do Lead</label>
+          <select id="OwnerId" name="OwnerId">
+            <option value="005VC00000J09Ji" selected="true">myHonda 2.0 Vendas</option>
+            <option value=""></option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="Status">Status do Lead</label>
+          <select id="Status" name="Status">
+            <option value="Nova Oportunidade" selected="true">Nova Oportunidade</option>
+            <option value=""></option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dealer_account__c">Conta da Concessionária</label>
+          <input id="dealer_account__c" maxlength="40" name="dealer_account__c" type="text" />
+        </div>
+
+        <div class="form-group">
+          <label for="opt_in_sms__c">
+            <input type="checkbox" name="opt_in_sms__c" id="opt_in_sms__c" value="1">
+            Opt-in SMS
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="opt_in_whatsapp__c">
+            <input type="checkbox" id="opt_in_whatsapp__c" name="opt_in_whatsapp__c" value="1">
+            Opt-in WhatsApp
+          </label>
+        </div>
+
+        <div class="form-group">
+          <label for="opt_in_email__c">
+            <input type="checkbox" name="opt_in_email__c" id="opt_in_email__c" value="1">
+            Opt-in E-mail
+          </label>
+        </div>
+
+
+        <div class="form-group submit-container">
+          <input type="submit" name="submit" value="Enviar Formulário">
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
