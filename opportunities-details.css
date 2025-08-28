@@ -104,7 +104,7 @@ records-record-layout-block slot records-record-layout-section:first-child {
 } */
 
 /* Remover o Ícon + button de editar do campo em Opps com Pseu-Elemento Sobrepondo o click */
-/* records-record-layout-item[field-label="Fase"] .slds-form-element__control button,
+records-record-layout-item[field-label="Fase"] .slds-form-element__control button,
 records-record-layout-item[field-label="Proprietário da oportunidade"] .slds-form-element__control button {
   display: none;
 }
@@ -113,7 +113,7 @@ records-record-layout-item[field-label="Fase"],
 records-record-layout-item[field-label="Proprietário da oportunidade"] {
   /* background: #ffcc30; */
   position: relative;
-} */
+}
 
 records-record-layout-item[field-label="Fase"]:after,
 records-record-layout-item[field-label="Proprietário da oportunidade"]:after {
