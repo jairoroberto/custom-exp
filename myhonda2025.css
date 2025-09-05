@@ -272,6 +272,11 @@ body .siteforceServiceBody .cHeaderLine {
   max-width: 1232px;
   margin: 0 auto;
 }
+body .siteforceServiceBody .cBrandingLogo:focus {
+  box-shadow: none !important;
+  filter: contrast(1.5);
+}
+
 body .cHeaderLine.slds-grid .cProfileCon {
   width: 20%;
 }
