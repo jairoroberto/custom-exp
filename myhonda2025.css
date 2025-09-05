@@ -274,7 +274,14 @@ body .siteforceServiceBody .cHeaderLine {
 }
 body .siteforceServiceBody .cBrandingLogo:focus {
   box-shadow: none !important;
-  filter: contrast(1.5);
+}
+body .siteforceServiceBody a.cBrandingLogo:hover:after {
+  content: "Home";
+  position: absolute;
+  width: auto;
+  height: auto;
+  transition: 0.2s ease all;
+  padding: 0 5px;
 }
 
 body .cHeaderLine.slds-grid .cProfileCon {
