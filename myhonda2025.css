@@ -273,6 +273,10 @@ body .cHeaderPanel .cSearchPublisher {
   max-width: 640px;
 }
 
+#header-overlay .cHeaderLine .slds-col_bump-left {
+  margin-left: 0rem;
+}
+
 body .forceCommunityGlobalNavigation .slds-list__item a {
   padding: 1rem;
 }
