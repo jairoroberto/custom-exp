@@ -299,7 +299,7 @@ body .siteforceServiceBody a.cBrandingLogo:hover:after {
 /* submenu profile */
 body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
   left: 80px;
-  right: auto;
+  right: auto; /* antes era 0 */
 }
 
 body .cHeaderLine.slds-grid .cProfileCon {
