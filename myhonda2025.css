@@ -260,7 +260,13 @@ div#centerPanel {
 /* force - changing standard structure SF Exper. Cloud */
 body .siteforceServiceBody .cHeaderOverlay {
   background: #f2f2f2;
-  height: 162px;
+  /* height: 162px; */
+  height: 158px;
+}
+
+body .cHeaderLine.slds-grid {
+  padding-left: 0;
+  padding-right: 0;
 }
 
 body .forceCommunityGlobalNavigation .slds-list__item a {
