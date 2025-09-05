@@ -310,6 +310,9 @@ body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
 .siteforceServiceBody .cProfileCon a.trigger-link:active {
   color: var(--slds-g-color-neutral-base-10, #181818);
   text-shadow: none !important;
+  background: #fff;
+  border-radius: 6px;
+  text-decoration: none;
 }
 
 body .cHeaderLine.slds-grid .cProfileCon {
