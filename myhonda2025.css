@@ -302,6 +302,16 @@ body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
   right: auto; /* antes era 0 */
 }
 
+.siteforceServiceBody .cProfileCon .login .login-link:hover,
+.siteforceServiceBody .cProfileCon .login .login-link:focus,
+.siteforceServiceBody .cProfileCon .login .login-link:active,
+.siteforceServiceBody .cProfileCon a.trigger-link:hover,
+.siteforceServiceBody .cProfileCon a.trigger-link:focus,
+.siteforceServiceBody .cProfileCon a.trigger-link:active {
+  color: var(--slds-g-color-neutral-base-10, #181818);
+  text-shadow: none !important;
+}
+
 body .cHeaderLine.slds-grid .cProfileCon {
   width: 20%;
 }
