@@ -311,11 +311,15 @@ body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
   color: var(--slds-g-color-neutral-base-10, #181818);
   text-shadow: none !important;
 }
+.siteforceServiceBody .cProfileCon a.trigger-link {
+  transition: all 0.3s ease;
+}
 
 .siteforceServiceBody .cProfileCon a.trigger-link:hover {
   background: #fff;
   border-radius: 6px;
   text-decoration: none;
+  transition: all 0.3s ease;
 }
 
 body .cHeaderLine.slds-grid .cProfileCon {
