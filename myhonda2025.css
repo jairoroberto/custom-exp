@@ -309,7 +309,7 @@ body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
 .siteforceServiceBody .cProfileCon a.trigger-link:focus,
 .siteforceServiceBody .cProfileCon a.trigger-link:active {
   color: var(--slds-g-color-neutral-base-10, #181818);
-  text-shadow: none !important;
+  box-shadow: none !important;
 }
 .siteforceServiceBody .cProfileCon a.trigger-link {
   transition: all 0.3s ease;
