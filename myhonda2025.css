@@ -272,6 +272,9 @@ body .siteforceServiceBody .cHeaderLine {
   max-width: 1232px;
   margin: 0 auto;
 }
+body .siteforceServiceBody .cBrandingLogo {
+  margin-left: 5px;
+}
 body .siteforceServiceBody .cBrandingLogo:focus {
   box-shadow: none !important;
 }
