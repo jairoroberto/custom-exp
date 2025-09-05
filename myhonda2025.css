@@ -298,7 +298,7 @@ body .siteforceServiceBody a.cBrandingLogo:hover:after {
 }
 /* submenu profile */
 body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
-  left: 80px;
+  left: 0px !important;
   right: auto; /* antes era 0 */
 }
 
