@@ -296,6 +296,10 @@ body .siteforceServiceBody a.cBrandingLogo:hover:after {
   transition: 0.2s ease all;
   padding: 0 5px;
 }
+/* submenu profile */
+body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
+  left: 80px;
+}
 
 body .cHeaderLine.slds-grid .cProfileCon {
   width: 20%;
