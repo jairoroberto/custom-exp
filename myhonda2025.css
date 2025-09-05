@@ -278,6 +278,9 @@ body .siteforceServiceBody .cBrandingLogo {
 body .siteforceServiceBody .cBrandingLogo:focus {
   box-shadow: none !important;
 }
+body .siteforceServiceBody .selfServiceUserProfileMenu .selfServiceProfileMenuTrigger {
+  text-align: left;
+}
 body .siteforceServiceBody a.cBrandingLogo:hover:after {
   content: "Home";
   position: absolute;
