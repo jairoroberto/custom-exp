@@ -268,7 +268,10 @@ body .cHeaderLine.slds-grid {
   padding-left: 0;
   padding-right: 0;
 }
-
+body .siteforceServiceBody .cHeaderLine {
+  max-width: 1232px;
+  margin: 0 auto;
+}
 body .cHeaderLine.slds-grid .cProfileCon {
   width: 20%;
 }
