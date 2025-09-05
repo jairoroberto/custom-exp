@@ -322,6 +322,10 @@ body .siteforceServiceBody .selfServiceUserProfileMenu .menuList {
   transition: all 0.3s ease;
 }
 
+.siteforceServiceBody .cNotifications {
+  text-align: center !important;
+}
+
 body .cHeaderLine.slds-grid .cProfileCon {
   width: 20%;
 }
