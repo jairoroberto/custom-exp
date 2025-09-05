@@ -268,15 +268,15 @@ body .cHeaderLine.slds-grid {
   padding-left: 0;
   padding-right: 0;
 }
-@media only screen and (min-width: 48em) {
-  body .cHeaderLine {
-    padding-right: 0;
-  }
+
+body .cHeaderLine.slds-grid .cProfileCon {
+  width: 20%;
 }
 
 /* Change width Search wrap */
-body .cHeaderPanel .cSearchPublisher {
+body .siteforceServiceBody .cHeaderPanel .cSearchPublisher {
   max-width: 640px;
+  width: 60%;
 }
 
 #header-overlay .cHeaderLine .slds-col_bump-left {
