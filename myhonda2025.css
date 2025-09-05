@@ -126,7 +126,7 @@ a.cBrandingLogo {
 a.cBrandingLogo:after {
   position: absolute;
   width: 28px;
-  height: auto;
+  height: 20px;
   content: "2.0";
   background: #ffcdd2;
   color: #e57373;
@@ -279,7 +279,7 @@ body .siteforceServiceBody a.cBrandingLogo:hover:after {
   content: "Home";
   position: absolute;
   width: auto;
-  height: auto;
+  height: 20px;
   transition: 0.2s ease all;
   padding: 0 5px;
 }
