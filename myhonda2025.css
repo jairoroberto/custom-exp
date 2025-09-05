@@ -281,8 +281,12 @@ body .siteforceServiceBody .cBrandingLogo:focus {
 body .siteforceServiceBody .selfServiceUserProfileMenu .selfServiceProfileMenuTrigger {
   text-align: left;
 }
+body .siteforceServiceBody a.cBrandingLogo:after {
+  transition: 0.2s ease all;
+}
+
 body .siteforceServiceBody a.cBrandingLogo:hover:after {
-  content: "Home";
+  content: "Início";
   position: absolute;
   width: auto;
   height: 20px;
