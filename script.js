@@ -14,7 +14,7 @@ updateLink.addEventListener('click', (event) => {
 
 // Aguarda o carregamento completo do DOM
 document.addEventListener('DOMContentLoaded', function () {
-  // Seleciona o link que contém "s/contactsupport" no href
+  // Seleciona o link que contém "s/contactsupport" no href pela ancora
   var contactSupportLink = document.querySelector('a[href*="s/contactsupport"]');
 
   // Verifica se o link foi encontrado
