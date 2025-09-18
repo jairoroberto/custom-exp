@@ -13,14 +13,10 @@ updateLink.addEventListener('click', (event) => {
 
 
 // Aguarda o carregamento completo do DOM
+/* Try Redirect */
 document.addEventListener('DOMContentLoaded', function () {
-  // Seleciona o link que contém "s/contactsupport" no href pela ancora
   var contactSupportLink = document.querySelector('.contactSupport a')
-  //var contactSupportLink = document.querySelector('a[href*="s/contactsupport"]');
-
-  // Verifica se o link foi encontrado
   if (contactSupportLink) {
-    // Altera o comportamento do link para abrir em uma nova aba
     contactSupportLink.addEventListener('click', function (event) {
       event.preventDefault(); // Impede o comportamento padrão do link
       window.open('https://honda.service-now.com/pitstop?source=ihs', '_blank'); // Abre a nova URL em uma nova aba
