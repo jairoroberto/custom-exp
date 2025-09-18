@@ -1,13 +1,18 @@
-# TASKS 
+# TASKS
 
 #Linkando o CSS Exp. Cloud - Github Pages - Configurar CSP:
-## Global:
-[https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)
-- `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >`
-## By Page:
-[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
-- Lead Detail: - `<[link href='https://jairoroberto.github.io/custom-exp/leads-details.css' rel='stylesheet' >`
 
+## Global:
+
+[https://jairoroberto.github.io/custom-exp/myhonda2025.css](https://jairoroberto.github.io/custom-exp/myhonda2025.css)
+
+- `<[link href='https://jairoroberto.github.io/custom-exp/myhonda2025.css' rel='stylesheet' >`
+
+## By Page:
+
+[https://jairoroberto.github.io/custom-exp/leads-details.css](https://jairoroberto.github.io/custom-exp/leads-details.css)
+
+- Lead Detail: - `<[link href='https://jairoroberto.github.io/custom-exp/leads-details.css' rel='stylesheet' >`
 
 Lista de comandos do Git com o padrão de escrita usando crases em todas as linhas:
 
@@ -42,10 +47,33 @@ Lista de comandos do Git com o padrão de escrita usando crases em todas as linh
 - `git blame [arquivo]`: Mostra quem fez cada alteração em um arquivo.
 - `git show [commit]`: Exibe informações sobre um commit específico.
 
-
-
-*This is a URL Link ref:*
+_This is a URL Link ref:_
 https://jairoroberto.github.io/custom-exp/custom-uat.css
 
+--
+Publish do Builder:
 
+1. Config Inicial Tema myHonda2
+2. Ajustando Style Global
+3. Ajuste da Cor de Fundo Menu
+4. Criação de Página temporária para links de objetos, listview etc...
+5. Estrutura Inicial Leads (Object)
+6. ## Criação da Base da Página de Leads com CSS
+7. Inserção de LWC da Home
+8.
 
+---
+
+Verificar:
+
+- URL Pós-Vendas Produção myHonda 1.0
+
+---
+
+## Links CSS Produção:
+
+- https://myhonda--c.vf.force.com/resource/1758051048000/myH2_Styles_Leads?
+- https://myhonda--c.vf.force.com/resource/1758055309000/myH2_Styles_Opportunities?
+
+CSP Page Lighthing Page:
+Exemplo: https://myhonda.lightning.force.com/lightning/o/CspTrustedSite/home
