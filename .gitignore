@@ -13,7 +13,7 @@ vendor/
 *.db
 /*.db
 /.sfdx
-
+*.db
 # Arquivos de log
 *.log
 

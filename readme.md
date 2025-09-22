@@ -60,7 +60,9 @@ Publish do Builder:
 5. Estrutura Inicial Leads (Object)
 6. ## Criação da Base da Página de Leads com CSS
 7. Inserção de LWC da Home
-8.
+8. Ajuste da Página Lead Detail com LWC Parcial - myH2_Service...
+9. Inserção do myH2_OpportunityQualificationInfo
+10. Inserção myH2_ListViewSubHeader
 
 ---
 

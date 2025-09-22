@@ -13,7 +13,7 @@ updateLink.addEventListener('click', (event) => {
 
 
 // Aguarda o carregamento completo do DOM
-/* Try Redirect */
+/* Try Redirect
 document.addEventListener('DOMContentLoaded', function () {
   var contactSupportLink = document.querySelector('.contactSupport a')
   if (contactSupportLink) {
@@ -23,6 +23,6 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 });
-
+*/
 // change text
 
