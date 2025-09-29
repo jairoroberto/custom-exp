@@ -72,10 +72,12 @@ button[type="button"]:contains("Clonar") {
 }
 
 /* Mudança da Cor do Ícone do layout compacto */
+/*
 .forceCommunityRecordHeadline span.record-avatar-container.slds-avatar.slds-avatar_medium.icon.slds-m-right_small {
   background-color: #cc0000 !important;
   border-radius: 3px;
 }
+*/
 
 /* Reduzindo paddind dos campos do Compact Layout */
 .slds-page-header__detail-block {
@@ -169,7 +171,9 @@ button[type="button"]:contains("Clonar") {
   border-bottom: 1px solid #ddd;
 }
 
-.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing .slds-form-element__control img[alt="SLA3"] {
+.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing
+  .slds-form-element__control
+  img[alt="SLA3"] {
   height: auto !important;
   width: 132px !important;
   margin-bottom: 4px !important;
@@ -179,7 +183,11 @@ button[type="button"]:contains("Clonar") {
   border-color: #dddddd !important;
 }
 
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(1) button {
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
+  div
+  ul
+  li:nth-child(1)
+  button {
   background: #ffffff;
   color: #333;
 }
