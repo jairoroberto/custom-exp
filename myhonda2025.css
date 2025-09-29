@@ -989,3 +989,8 @@ c-my-h2_-home-opportunity-manager .title,
 c-my-h2_-home-event-manager .title {
   color: var(--color-dark);
 }
+
+/* pequeno ajuste componente LWC myH2-info-message */
+.myH2-info-message {
+  padding-top: 12px;
+}
