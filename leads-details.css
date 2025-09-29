@@ -72,12 +72,11 @@ button[type="button"]:contains("Clonar") {
 }
 
 /* Mudança da Cor do Ícone do layout compacto */
-/*
+
 .forceCommunityRecordHeadline span.record-avatar-container.slds-avatar.slds-avatar_medium.icon.slds-m-right_small {
-  background-color: #cc0000 !important;
+  /*background-color: #cc0000 !important;*/
   border-radius: 3px;
 }
-*/
 
 /* Reduzindo paddind dos campos do Compact Layout */
 .slds-page-header__detail-block {
