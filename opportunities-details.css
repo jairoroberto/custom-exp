@@ -51,7 +51,7 @@
 .forceCommunityRecordHeadline .secondaryFields p.slds-text-title.slds-truncate {
   text-transform: uppercase;
   min-width: 110px;
-  font-size: 0.75rem;
+  font-size: 11px;
   -webkit-font-smoothing: antialiased;
 }
 
