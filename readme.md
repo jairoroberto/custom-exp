@@ -63,12 +63,30 @@ Publish do Builder:
 8. Ajuste da Página Lead Detail com LWC Parcial - myH2_Service...
 9. Inserção do myH2_OpportunityQualificationInfo
 10. Inserção myH2_ListViewSubHeader
+11. Inclusão Page Opportunities Object Detail Standard + LWCs
+12. Inclusão List View Opportunities + LWC
+13. Link menu Opp Em Atendimento (Sem List View Criada ainda)
+14. Link menu Opp Finalizadas(Sem List View Criada ainda)
+15. Ajuste de Link submenu ListViews Novas, Em Atendimento e Finalizadas
 
----
+16. Git URL Temporary SVG ListViews
+17. Criação da Página CalendarioMyHonda2
+18. Ajuste Main Menu Agendamentos > Acompanhamento (Página CalendarioMyHonda2)
+19. Inclusão Global Style CSS temporary - problemas ao carregar Static Resource CSS File
 
-Verificar:
+Notes/Verificar:
 
 - URL Pós-Vendas Produção myHonda 1.0
+
+Link em UAT para Treinamento:
+https://myhonda--uat.sandbox.my.site.com/leads/s/registrationcourse/RegistrationCourse__c/Default
+
+Possível link em Produção para Treinamento:
+https://myhonda.my.site.com/leads/s/registrationcourse/RegistrationCourse__c/Default
+"Invalid Page"
+
+Biblioteca de Treinamentos estão com o mesmo link em Produção
+https://myhonda.my.site.com/leads/s/biblioteca
 
 ---
 

@@ -4,12 +4,12 @@ const updateLink = document.querySelector(".subheader-listview p a[id*='updatePa
 // reload when click
 // updateLink.href = 'https://example.com/new-link';
 
-updateLink.addEventListener('click', (event) => {
-  event.preventDefault();
-  // do something
-  window.location.href = updateLink.href;
-  console.log('clicked update link');
-});
+// updateLink.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   // do something
+//   window.location.href = updateLink.href;
+//   console.log('clicked update link');
+// });
 
 
 // Aguarda o carregamento completo do DOM
