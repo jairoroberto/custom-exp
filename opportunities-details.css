@@ -132,6 +132,5 @@ records-record-layout-item[field-label="Proprietário da oportunidade"]:after {
 
 /* pequeno ajuste componente LWC myH2-info-message */
 .myH2-info-message {
-  /*padding-top: 12px !important;*/
-  font-size: 1rem !important;
+  margin-top: 12px !important;
 }
