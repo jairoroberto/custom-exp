@@ -59,7 +59,9 @@
   border-bottom: 1px solid #ddd;
 }
 
-.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing .slds-form-element__control img[alt="SLA3"] {
+.slds-form-element.slds-hint-parent.test-id__output-root.slds-form-element_readonly.is-stacked.is-stacked-not-editing
+  .slds-form-element__control
+  img[alt="SLA3"] {
   height: auto !important;
   width: 132px !important;
   margin-bottom: 4px !important;
@@ -69,7 +71,11 @@
   border-color: #dddddd !important;
 }
 
-.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer div ul li:nth-child(1) button {
+.slds-col.slds-no-flex.slds-grid.slds-grid_vertical-align-center.horizontal.actionsContainer
+  div
+  ul
+  li:nth-child(1)
+  button {
   background: #ffffff;
   color: #333;
 }
@@ -91,7 +97,11 @@ records-record-layout-item[field-label="Data de fechamento"] {
   display: none;
 } */
 
-records-record-layout-item:is([field-label="Nome da oportunidade"], [field-label="Probabilidade (%)"], [field-label="Nome da conta"]) {
+records-record-layout-item:is(
+  [field-label="Nome da oportunidade"],
+  [field-label="Probabilidade (%)"],
+  [field-label="Nome da conta"]
+) {
   display: none;
 }
 
@@ -130,7 +140,11 @@ records-record-layout-item[field-label="Proprietário da oportunidade"]:after {
   left: 0;
 }
 
-/* pequeno ajuste componente LWC myH2-info-message */
+/* pequeno ajuste componente Force CSS LWC myH2-info-message */
 .myH2-info-message {
   margin-top: 12px !important;
+
+  & span {
+    font-size: 16px !important;
+  }
 }
