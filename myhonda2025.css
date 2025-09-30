@@ -993,4 +993,5 @@ c-my-h2_-home-event-manager .title {
 /* pequeno ajuste componente LWC myH2-info-message */
 .myH2-info-message {
   padding-top: 12px !important;
+  font-szie: 1rem !important;
 }
