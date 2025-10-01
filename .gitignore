@@ -14,8 +14,13 @@ vendor/
 /*.db
 /.sfdx
 *.db
+
+.allai/workspace.db
+.allai
 # Arquivos de log
 *.log
+
+
 
 # Arquivos temporários
 *.tmp

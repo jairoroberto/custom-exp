@@ -74,6 +74,12 @@ Publish do Builder:
 18. Ajuste Main Menu Agendamentos > Acompanhamento (Página CalendarioMyHonda2)
 19. Inclusão Global Style CSS temporary - problemas ao carregar Static Resource CSS File
 
+20. Ajustes da Tela de Login, Traduções + logo
+21. Ajuste de tradução do usuário/submenu
+
+
+
+
 Notes/Verificar:
 
 - URL Pós-Vendas Produção myHonda 1.0
