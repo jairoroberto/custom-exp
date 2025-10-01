@@ -232,3 +232,7 @@ records-record-layout-item[field-label="Proprietário"]:after {
 /* .slds-backdrop.slds-backdrop_open:nth-child(2) {
   display: none;
 } */
+
+.myH2-info-message {
+  margin-top: 12px;
+}

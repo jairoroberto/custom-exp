@@ -76,9 +76,9 @@ Publish do Builder:
 
 20. Ajustes da Tela de Login, Traduções + logo
 21. Ajuste de tradução do usuário/submenu
-
-
-
+22. Criação Página de Suporte Pitstop
+23. Definindo o padrão da página de Suporte (PitStop)
+24. Ajuste temporario URL de CSS Leads e Oportunidades (Detail)
 
 Notes/Verificar:
 
