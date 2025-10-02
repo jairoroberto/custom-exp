@@ -582,10 +582,10 @@ nav.slds-has-flexi-truncate ul li > button:hover {
 }
 
 /* LIST VIEW STANDARD CHANGES */
-
+/* 
 .slds-col--padded.comm-content-header.comm-layout-column:has(.subheader-listview) div[data-region-name="header"] {
   margin: 1rem 0 0 0 !important;
-}
+} */
 
 /* .subheader-listview {
   margin: 0;
