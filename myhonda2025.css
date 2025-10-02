@@ -991,18 +991,17 @@ c-my-h2_-home-event-manager .title {
 }
 
 /* Ajuste de SubHeader ListView DEV/SFA E UAT */
-/* .subheader-listview {
-  margin-bottom: 0 !important;
-} */
+
 /* LISTVIEW LEADS */
 body.comm-page-list-00Q {
   & .subheader-listview {
-    margin-bottom: -1rem !important;
+    margin-bottom: -1.7rem !important;
   }
 }
+
 /* LISTVIEW OPORTUNNITY */
-body.comm-page-list-006 {
-  /* & .subheader-listview {
+/* body.comm-page-list-006 {
+  & .subheader-listview {
     margin-bottom: 0 !important;
-  } */
-}
+  } 
+} */
