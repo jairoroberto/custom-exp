@@ -1002,6 +1002,6 @@ body.comm-page-list-00Q {
 /* LISTVIEW OPORTUNNITY */
 body.comm-page-list-006 {
   & .subheader-listview {
-    margin-bottom: 0 !important;
+    margin-bottom: -0.7rem !important;
   }
 }
