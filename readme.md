@@ -1,6 +1,6 @@
-# TASKS
+# HONDA ASSETS
 
-#Linkando o CSS Exp. Cloud - Github Pages - Configurar CSP:
+#Linkando o CSS Exp. Cloud - GitLab Pages - Configurar CSP:
 
 ## Global:
 
@@ -50,7 +50,10 @@ Lista de comandos do Git com o padrão de escrita usando crases em todas as linh
 _This is a URL Link ref:_
 https://jairoroberto.github.io/custom-exp/custom-uat.css
 
---
+## Comments
+
+<!--
+
 Publish do Builder:
 
 1. Config Inicial Tema myHonda2
@@ -62,6 +65,8 @@ Publish do Builder:
 7. Inserção de LWC da Home
 8. Ajuste da Página Lead Detail com LWC Parcial - myH2_Service...
 9. Inserção do myH2_OpportunityQualificationInfo
+
+- 25/09
 10. Inserção myH2_ListViewSubHeader
 11. Inclusão Page Opportunities Object Detail Standard + LWCs
 12. Inclusão List View Opportunities + LWC
@@ -69,17 +74,27 @@ Publish do Builder:
 14. Link menu Opp Finalizadas(Sem List View Criada ainda)
 15. Ajuste de Link submenu ListViews Novas, Em Atendimento e Finalizadas
 
+- 26/09
 16. Git URL Temporary SVG ListViews
 17. Criação da Página CalendarioMyHonda2
 18. Ajuste Main Menu Agendamentos > Acompanhamento (Página CalendarioMyHonda2)
 19. Inclusão Global Style CSS temporary - problemas ao carregar Static Resource CSS File
 
+- 29/09
+>> Ajustes de Configs Ambientes -  DEV/UAT etc...
+
+- 01/10
 20. Ajustes da Tela de Login, Traduções + logo
 21. Ajuste de tradução do usuário/submenu
 22. Criação Página de Suporte Pitstop
 23. Definindo o padrão da página de Suporte (PitStop)
 24. Ajuste temporario URL de CSS Leads e Oportunidades (Detail)
 
+- 02/10
+25. Ajuste de URL logo Pitstop - Page "Entrar em contato com o suporte"
+
+
+---------------------------------------------------------------------------------------------------
 Notes/Verificar:
 
 - URL Pós-Vendas Produção myHonda 1.0
@@ -98,8 +113,12 @@ https://myhonda.my.site.com/leads/s/biblioteca
 
 ## Links CSS Produção:
 
+Ajuste URLs CSS for Static Resources, Global, Lead e Opp CSS
+
 - https://myhonda--c.vf.force.com/resource/1758051048000/myH2_Styles_Leads?
 - https://myhonda--c.vf.force.com/resource/1758055309000/myH2_Styles_Opportunities?
 
 CSP Page Lighthing Page:
 Exemplo: https://myhonda.lightning.force.com/lightning/o/CspTrustedSite/home
+
+-->
