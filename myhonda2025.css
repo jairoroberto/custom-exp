@@ -995,8 +995,8 @@ c-my-h2_-home-event-manager .title {
 /* LISTVIEW LEADS */
 body.comm-page-list-00Q {
   & .subheader-listview {
-    /* margin-bottom: -2.3rem !important; */
-    margin-bottom: 0rem !important;
+    margin-bottom: -2.3rem !important;
+    /* margin-bottom: 0rem !important; */
   }
 }
 
