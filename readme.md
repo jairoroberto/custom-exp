@@ -93,6 +93,9 @@ Publish do Builder:
 - 02/10
 25. Ajuste de URL logo Pitstop - Page "Entrar em contato com o suporte"
 
+- 03/10
+26. Inserção GA / Firebase
+
 
 ---------------------------------------------------------------------------------------------------
 Notes/Verificar:
