@@ -124,4 +124,10 @@ Ajuste URLs CSS for Static Resources, Global, Lead e Opp CSS
 CSP Page Lighthing Page:
 Exemplo: https://myhonda.lightning.force.com/lightning/o/CspTrustedSite/home
 
+
+<link href="https://myhonda.my.site.com/myhonda2/resource/1760379135000/myH2_Styles_Global?" rel="stylesheet" />
+<link href="https://myhonda.my.site.com/myhonda2/resource/1760377772000/myH2_Styles_Leads?" rel="stylesheet" />
+
+
+
 -->
