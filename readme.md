@@ -127,7 +127,14 @@ Exemplo: https://myhonda.lightning.force.com/lightning/o/CspTrustedSite/home
 
 <link href="https://myhonda.my.site.com/myhonda2/resource/1760379135000/myH2_Styles_Global?" rel="stylesheet" />
 <link href="https://myhonda.my.site.com/myhonda2/resource/1760377772000/myH2_Styles_Leads?" rel="stylesheet" />
+<link href="https://myhonda.my.site.com/myhonda2/resource/1760383175000/myH2_Styles_Opportunities?" rel="stylesheet" />
 
+recordType ID: 012VP000000sc9xYAA
 
+{{baseURL}}/myhonda2/services/data/v63.0/query/?q=SELECT+Id,Name,Company,Status+FROM+Lead+WHERE+RecordTypeId='012VP000000sc9xYAA'+ORDER+BY+CreatedDate+DESC+LIMIT+20
+
+SELECT Id, Name, cpf__c, Email, type__c, MobilePhone, Phone, model_interest__c, Status, opt_in_email__c, opt_in_whatsapp__c, opt_in_phone__c,   opt_in_sms__c, dealer_account__c, dealer_account__r.Name,  CreatedBy.Name from lead where RecordType.Name = 'My Honda 2' limit 100
 
 -->
+
+
